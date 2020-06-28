@@ -119,3 +119,7 @@ p {
   background-attachment: fixed;
   background-size: cover;
 }
+
+.footer {
+  padding-left: 15px;
+}
