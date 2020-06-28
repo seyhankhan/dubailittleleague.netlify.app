@@ -8,7 +8,7 @@
 [class*="col-"] {
   float: left;
   padding: 15px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .row::after {
@@ -74,7 +74,7 @@ p {
   font-weight: lighter;
 }
 
-/*                                    Header                              */
+/*                                    Header                                  */
 .header ul {
   list-style-type: none;
   margin: 0;
@@ -84,12 +84,12 @@ p {
 .header li a {
   display: inline-block;
   text-align: center;
-  padding: 14px 50px;
+  padding: 30px 50px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.8em;
   letter-spacing: 0.1em;
-  color: #231F20;
+  color: #ffffff;
 }
 
 .nav li {
@@ -104,8 +104,8 @@ p {
   font-weight: bold;
 }
 
-/*                                   Cover photo                             */
-.cover-photo {
+/*                                   Cover photo                              */
+body {
   background-image: url("../images/home-cover.jpg");
   background-position: center center;
   background-repeat: no-repeat;
