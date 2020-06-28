@@ -63,6 +63,7 @@ h2 {
   font-weight: lighter;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  color: white;
 }
 
 h6 {
@@ -116,10 +117,17 @@ p {
   background-image: url("../images/home-cover.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
 }
 
+.content {
+  position: absolute;
+  Top: 50%;
+  left: 5%;
+}
+
+/*                                   Footer                                    */
 .footer {
   padding-left: 15px;
 }
