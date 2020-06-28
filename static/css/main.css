@@ -4,13 +4,13 @@
 @font-face {
   font-family: 'Nunito Sans';
   font-weight: 300;
-  src: url('../../static/fonts/NunitoSans-Light.ttf');
+  src: url('../fonts/NunitoSans-Light.ttf');
 }
 
 @font-face {
   font-family: 'Nunito Sans';
   font-weight: 700;
-  src: url('../../static/fonts/NunitoSans-Bold.ttf');
+  src: url('../fonts/NunitoSans-Bold.ttf');
 }
 
 body {
