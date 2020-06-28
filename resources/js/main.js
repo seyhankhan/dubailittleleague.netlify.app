@@ -1,1 +1,1 @@
-/* main JavaScript file for all pages */
+/* ###################### main JavaScript for all pages ##################### */
