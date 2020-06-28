@@ -45,6 +45,7 @@
 
 body {
   font-family: Avenir, 'Nunito Sans';
+  font-size: 1em;
   font-weight: lighter;
   color: #231F20;
   margin: 0;
@@ -56,6 +57,7 @@ h1 {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: white;
+  margin-block-end: 0.2em;
 }
 
 h2 {
@@ -64,11 +66,15 @@ h2 {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: white;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 h6 {
   font-size: 0.8em;
   font-weight: lighter;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 p {
@@ -114,12 +120,16 @@ p {
 /*                                   Cover photo                              */
 .cover {
   height: 100vh;
-  background-image: url("../images/home-cover.jpg");
+  background-image:
+  linear-gradient(to bottom, rgba(35, 31, 32, 0.4), rgba(35, 31, 32, 0.4)),
+  url("../images/home-cover.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-size: cover;
 }
+
+/*                                   Title / Subtitle                         */
 
 .content {
   position: absolute;
@@ -127,7 +137,28 @@ p {
   left: 5%;
 }
 
+.content hr {
+  width: 60%;
+  border: 1px solid white;
+  position: absolute;
+  margin: 0;
+  left: -15%;
+  margin-block-start: 0.6em;
+}
+
+.sub-title {
+  text-align: right;
+}
+
 /*                                   Footer                                    */
 .footer {
-  padding-left: 15px;
+  padding: 30px;
+}
+
+.creators {
+  color: white;
+  background-color: #231F20;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em
 }
