@@ -5,7 +5,9 @@
 
 ################################ IMPORT MODULES ################################
 
-from flask import Flask, render_template, redirect, request, session, url_for
+
+from flask import Flask, render_template, session
+
 
 ################################### INIT APP ###################################
 
@@ -20,7 +22,7 @@ app.secret_key = "stubblyainslieprocrastination"
 @app.route('/')
 def index():
 	return render_template('index.html',
-						   session_username=session['username'] if 'username' in session else None)
+						             session_username=session['username'] if 'username' in session else None)
 
 
 #################################### APP RUN ###################################
