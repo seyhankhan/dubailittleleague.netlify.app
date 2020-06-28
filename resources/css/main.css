@@ -13,19 +13,26 @@
   src: url('../../vendors/google-fonts/NunitoSans-Bold.ttf');
 }
 
-body{
+body {
   font-family: Avenir, 'Nunito Sans';
   font-weight: lighter;
   color: #231F20;
 }
 
-h1{
-  font-size: 3em;
+h1 {
+  font-size: 2.5em;
   font-weight: bold;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
 
-p{
+h2 {
+  font-size: 1.2em;
+  font-weight: lighter;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+p {
   font-size: 1em;
 }
