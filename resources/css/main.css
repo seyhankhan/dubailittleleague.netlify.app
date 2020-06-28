@@ -15,4 +15,17 @@
 
 body{
   font-family: Avenir, 'Nunito Sans';
+  font-weight: lighter;
+  color: #231F20;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+p{
+  font-size: 1em;
 }
