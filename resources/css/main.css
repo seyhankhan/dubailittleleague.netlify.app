@@ -33,6 +33,12 @@ h2 {
   text-transform: uppercase;
 }
 
+h6 {
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+
 p {
   font-size: 1em;
+  font-weight: lighter;
 }
