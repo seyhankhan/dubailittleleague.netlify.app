@@ -1,6 +1,6 @@
 /* ######################### main CSS for all pages ######################### */
 
-/* <---------- Fonts----------> */
+/*  Fonts  */
 @font-face {
   font-family: 'Nunito Sans';
   font-weight: 300;
@@ -13,19 +13,19 @@
   src: url('../../vendors/google-fonts/NunitoSans-Bold.ttf');
 }
 
-body{
+body {
   font-family: Avenir, 'Nunito Sans';
   font-weight: lighter;
   color: #231F20;
 }
 
-h1{
+h1 {
   font-size: 3em;
   font-weight: bold;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
 
-p{
+p {
   font-size: 1em;
 }
