@@ -77,8 +77,8 @@ p {
 
 /*                                    Header                                  */
 .header {
-  display: contents;
   position: fixed;
+  width: 100%;
 }
 
 .header ul {
@@ -90,7 +90,7 @@ p {
 .header li a {
   display: inline-block;
   text-align: center;
-  padding: 14px 40px;
+  padding: 20px 50px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.8em;
