@@ -1,1 +1,18 @@
 /* ######################### main CSS for all pages ######################### */
+
+/* <---------- Fonts----------> */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  src: url('../../vendors/google-fonts/NunitoSans-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+  src: url('../../vendors/google-fonts/NunitoSans-Bold.ttf');
+}
+
+body{
+  font-family: Avenir, 'Nunito Sans';
+}
