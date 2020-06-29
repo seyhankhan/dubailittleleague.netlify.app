@@ -86,7 +86,7 @@ p {
 .header {
   position: fixed;
   width: 100%;
-  padding-top: 20px;
+  margin-top: 20px;
   background-color: rgba(35, 31, 32, 0.7);
   z-index: 1;
 }
@@ -204,6 +204,10 @@ p {
 
 .footer p {
   line-height: 1.9em;
+}
+
+.footer svg {
+  margin-right: 10px;
 }
 
 .sponsors {
