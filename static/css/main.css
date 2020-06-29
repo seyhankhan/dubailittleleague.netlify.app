@@ -168,7 +168,7 @@ p {
 
 /*                                   Footer                                    */
 .footer {
-  padding: 30px;
+  padding: 20px;
 }
 
 .creators {
@@ -177,4 +177,9 @@ p {
   text-align: center;
   padding: 15px;
   font-size: 0.9em
+}
+
+.sponsors img {
+  height: 100px;
+  margin-right: 20px;
 }
