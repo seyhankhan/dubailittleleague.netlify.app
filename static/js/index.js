@@ -1,8 +1,11 @@
 /* ######################## JavaScript for index.html ####################### */
 window.onscroll = function() {
+  maximumTransparency = 0.8;
+  heightMaxPercentage = 0.3527;
+  startingMarginTop = 20;
   var nav = document.getElementById('navbar');
 
-  ratio = (window.pageYOffset/document.documentElement.clientHeight) / 0.3527;
-  nav.style.backgroundColor = "rgba(35,31,32," + ((ratio < 1 ? ratio : 1) * 0.7).toString() + ")";
-  nav.style.marginTop = (20 > window.pageYOffset ? (20 - window.pageYOffset).toString() : '0') + 'px';
+  ratio = (window.pageYOffset/document.documentElement.clientHeight) / heightMaxPercentage;
+  nav.style.backgroundColor = "rgba(35,31,32," + ((ratio < 1 ? ratio : 1) * maximumTransparency).toString() + ")";
+  nav.style.marginTop = (startingMarginTop > window.pageYOffset ? (startingMarginTop - window.pageYOffset).toString() : '0') + 'px';
 }
