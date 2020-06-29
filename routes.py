@@ -25,6 +25,14 @@ def index():
 						             session_username=session['username'] if 'username' in session else None)
 
 
+################################ DIVISION & FEES ###############################
+
+
+@app.route('/divisions-fees')
+def divisions_fees():
+	return render_template('divisions-fees.html')
+
+
 #################################### APP RUN ###################################
 
 
