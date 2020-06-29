@@ -42,18 +42,10 @@
   width: 1150px;
 }
 
-.red-register {
-  color: white;
-  background-color: #AB3428;
-  border-radius: 4px;
-  font-weight: bold;
-  text-align: right;
-  padding: 12px 20px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 0.8em;
-  letter-spacing: 0.1em;
-  float: right;
+.cover svg {
+  position: absolute;
+  left: 45%;
+  top: 80%;
 }
 
 .main-info {
@@ -62,9 +54,47 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: left;
 }
 
-.main-info p {
+.main-info h2 {
+  font-weight: bold;
+  color: #231F20;
+  margin-top: 30px;
+}
+
+#summary {
   font-weight: bold;
   text-align: center;
+}
+
+#help {
+  background-color: #DDDBCB;
+  border-radius: 4px;
+  padding: 20px 10px;;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#help svg {
+  margin-right: 15px;
+}
+
+table {
+  margin-top: 20px;
+}
+
+th {
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  color: #4f4c4d;
+}
+
+td {
+  border-top: 1px solid #A6A5A6;
+}
+
+th, td {
+  padding: 10px;
 }
