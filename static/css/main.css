@@ -82,10 +82,11 @@ p {
   font-weight: lighter;
 }
 
-/*                                    Header                                  */
+/*                            Navigation                                       */
 .header {
   position: fixed;
   width: 100%;
+  margin-top: 20px;
 }
 
 .header ul {
@@ -97,7 +98,7 @@ p {
 .header li a {
   display: inline-block;
   text-align: center;
-  padding: 20px 50px;
+  padding: 12px 20px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.8em;
@@ -105,15 +106,28 @@ p {
   color: #ffffff;
 }
 
-.nav li {
+.nav li a {
   float: left;
+  min-width: 200px;
 }
 
 .account li {
   float: right;
+  margin-right: 20px;
 }
 
 .header li a:hover {
+  font-weight: bold;
+}
+
+#log-in {
+  font-weight: bold;
+}
+
+#register-button {
+  color: #231F20;
+  background-color: white;
+  border-radius: 4px;
   font-weight: bold;
 }
 
@@ -131,12 +145,14 @@ p {
 
 /*                                   Title / Subtitle                         */
 
+/* POSITION OF TITLES */
 .content {
   position: absolute;
   Top: 50%;
   left: 5%;
 }
 
+/* LINE */
 .content hr {
   width: 60%;
   border: 1px solid white;
