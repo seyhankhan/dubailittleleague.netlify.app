@@ -200,15 +200,26 @@ p {
   font-weight: bold;
 }
 
+.footer p {
+  line-height: 2em;
+}
+
 .sponsors {
+  text-align: justify;
   background-color: white;
-  padding: 65px;
-  justify-content: center;
+  margin: 3% 8%;
 }
 
 .sponsors img {
-  margin-right: 80px;
-  height: 100px;
+  height: 110px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sponsors:after {
+  content: "";
+  width: 100vw;
+  display: inline-block;
 }
 
 .creators {
