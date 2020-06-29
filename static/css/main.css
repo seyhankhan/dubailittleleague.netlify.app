@@ -183,11 +183,30 @@ p {
 
 /*                                   Footer                                    */
 .footer {
-  padding: 20px 40px;
+  padding: 60px;
+}
+
+.footer img {
+  height: 250px;
+}
+
+.footer {
+  background-color: #e9e8e8;
+}
+
+.footer h2 {
+  color: #231F20;
+  font-weight: bold;
+}
+
+.sponsors {
+  background-color: white;
+  padding: 60px;
+  justify-content: center;
 }
 
 .sponsors img {
-  height: 80px;
+  height: 100px;
   margin-right: 20px;
 }
 
