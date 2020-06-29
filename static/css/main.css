@@ -145,7 +145,7 @@ p {
 
 /*                                   Title / Subtitle                         */
 
-/* POSITION OF TITLES */
+/* POSITION OF TITLE */
 .content {
   position: absolute;
   Top: 50%;
@@ -166,9 +166,29 @@ p {
   text-align: right;
 }
 
+.red-register {
+  color: white;
+  background-color: #AB3428;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: right;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  float: right;
+  margin-top: 1em;
+}
+
 /*                                   Footer                                    */
 .footer {
-  padding: 20px;
+  padding: 20px 40px;
+}
+
+.sponsors img {
+  height: 80px;
+  margin-right: 20px;
 }
 
 .creators {
@@ -177,9 +197,4 @@ p {
   text-align: center;
   padding: 15px;
   font-size: 0.9em
-}
-
-.sponsors img {
-  height: 100px;
-  margin-right: 20px;
 }
