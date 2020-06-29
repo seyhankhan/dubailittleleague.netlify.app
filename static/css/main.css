@@ -206,6 +206,10 @@ p {
   line-height: 1.9em;
 }
 
+.footer svg {
+  margin-right: 10px;
+}
+
 .sponsors {
   text-align: justify;
   background-color: white;
