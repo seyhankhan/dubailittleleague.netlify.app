@@ -183,11 +183,12 @@ p {
 
 /*                                   Footer                                    */
 .footer {
-  padding: 60px;
+  padding: 50px;
 }
 
 .footer img {
-  height: 250px;
+  display: block;
+  height: 260px;
 }
 
 .footer {
@@ -201,13 +202,13 @@ p {
 
 .sponsors {
   background-color: white;
-  padding: 60px;
+  padding: 65px;
   justify-content: center;
 }
 
 .sponsors img {
+  margin-right: 80px;
   height: 100px;
-  margin-right: 20px;
 }
 
 .creators {
