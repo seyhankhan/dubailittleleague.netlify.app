@@ -132,3 +132,12 @@ p {
   border-radius: 4px;
   font-weight: bold;
 }
+
+/*                               creators                                      */
+.creators {
+  color: white;
+  background-color: #231F20;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em
+}

@@ -29,9 +29,15 @@
   margin-block-start: 0.2em;
 }
 
-.sub-title {
-  text-align: right;
-  margin-block-end: 0.8em;
+.fade {
+  font-size: 13em;
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.1);
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  top: 38%;
+  right: -5%;
 }
 
 .red-register {
@@ -46,62 +52,4 @@
   font-size: 0.8em;
   letter-spacing: 0.1em;
   float: right;
-}
-
-/*                                   Footer                                    */
-.footer {
-  padding: 50px;
-}
-
-.footer img {
-  display: block;
-  height: 260px;
-}
-
-.footer {
-  background-color: #e9e8e8;
-}
-
-.footer h2 {
-  color: #231F20;
-  font-weight: bold;
-}
-
-.footer p {
-  line-height: 1.9em;
-}
-
-.footer svg {
-  margin-right: 15px;
-}
-
-.sponsors {
-  text-align: justify;
-  background-color: white;
-  margin: 4% 9%;
-}
-
-.contact-us {
-  vertical-align: middle;
-  display: table-cell;
-}
-
-.sponsors img {
-  height: 100px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.sponsors:after {
-  content: "";
-  width: 100vw;
-  display: inline-block;
-}
-
-.creators {
-  color: white;
-  background-color: #231F20;
-  text-align: center;
-  padding: 15px;
-  font-size: 0.9em
 }
