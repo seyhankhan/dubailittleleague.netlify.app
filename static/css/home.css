@@ -17,6 +17,11 @@
   left: 5%;
 }
 
+.page-title-and-line h2 {
+  color: white;
+  font-weight: lighter;
+}
+
 /* POSITIONING AND SIZE OF TITLE WHITE LINE */
 .page-title-and-line hr {
   width: 60%;
