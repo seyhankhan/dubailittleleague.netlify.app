@@ -12,5 +12,5 @@ window.onscroll = function() {
 function goDownToContent() {
     $('html, body').animate({
         scrollTop: $("#downArrow").offset().top + $("#downArrow").height()
-    }, 1000 ); //in ms
+    }, 800 ); //in ms
 }
