@@ -149,7 +149,13 @@ p {
                               /* COVER PAGE */
 /* --------------------------------------------------------------------------- */
 
-/* auto scroll down button */
+/* AUTO SCROLL DOWN */
+.downArrow {
+  position: absolute;
+  right: 5%;
+  top: 80%;
+}
+
 .downArrow:hover {
   cursor:pointer;
 }
@@ -247,6 +253,7 @@ p {
 /* --------------------------------------------------------------------------- */
                         /* STOP HIGHLIGHTING TEXT */
 /* --------------------------------------------------------------------------- */
+
 .unselectable {
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
