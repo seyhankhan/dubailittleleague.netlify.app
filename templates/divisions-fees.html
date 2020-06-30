@@ -26,103 +26,26 @@
       {{ svg['help'] }}
       Your baseball age is determined by your child's age on the <b>AGE CUTOFF</b> date.
     </p>
+    {% for division in divisionTable %}
+      <h2>{{division}}</h2>
+      <table>
+        <tr>
+          {% for header in divisionTableHeaders %}
+            <th>{{header}}</th>
+          {% endfor %}
+        </tr>
+        {% for row in divisionTable[division] %}
+          <tr>
+            <td><b>{{row[0]}}</b></td>
+            <td>{{row[1]}}</td>
+            <td>{{row[2]}}</td>
+            <td>{{row[3]}}</td>
+            <td>{{row[4]}}</td>
+          </tr>
+        {% endfor %}
+      </table>
+    {% endfor %}
 
-    <h2>Baseball</h2>
-    <table>
-      <tr>
-        <th>DIVISION</th>
-        <th>AGE GROUP</th>
-        <th>OPEN TO</th>
-        <th>FEE</th>
-        <th>AGE CUTOFF</th>
-      </tr>
-      <tr>
-        <td><b>Baseball Tee-ball</b></td>
-        <td>4-6 years</td>
-        <td>Boys & Girls</td>
-        <td>1900 AED</td>
-        <td>Jan 1, 2021</td>
-      </tr>
-      <tr>
-        <td><b>Baseball Pee Wee</b></td>
-        <td>7-8 years</td>
-        <td>Boys & Girls</td>
-        <td>2200 AED</td>
-        <td>May 1, 2021</td>
-      </tr>
-      <tr>
-        <td><b>Baseball Minors</b></td>
-        <td>9-10 years</td>
-        <td>Boys & Girls</td>
-        <td>2200 AED</td>
-        <td>May 1, 2021</td>
-      </tr>
-      <tr>
-        <td><b>Baseball Majors</b></td>
-        <td>11-12 years</td>
-        <td>Boys & Girls</td>
-        <td>2200 AED</td>
-        <td>May 1, 2021</td>
-      </tr>
-      <tr>
-        <td><b>Baseball Juniors</b></td>
-        <td>12-14 years</td>
-        <td>Boys & Girls</td>
-        <td>2200 AED</td>
-        <td>May 1, 2021</td>
-      </tr>
-      <tr>
-        <td><b>Baseball Seniors</></td>
-        <td>14-18 years</td>
-        <td>Boys & Girls</td>
-        <td>2200 AED</td>
-        <td>May 1, 2021</td>
-      </tr>
-    </table>
-
-    <h2>Softball</h2>
-    <table>
-      <tr>
-        <th>DIVISION</th>
-        <th>AGE GROUP</th>
-        <th>OPEN TO</th>
-        <th>FEE</th>
-        <th>AGE CUTOFF</th>
-      </tr>
-      <tr>
-        <td><b>Softball Juniors</b></td>
-        <td>9-13 years</td>
-        <td>Girls</td>
-        <td>2200 AED</td>
-        <td>Jan 1, 2021</td>
-      </tr>
-      <tr>
-        <td><b>Softball Seniors</b></td>
-        <td>14-18 years</td>
-        <td>Girls</td>
-        <td>2200 AED</td>
-        <td>May 1, 2021</td>
-      </tr>
-    </table>
-
-    <h2>Challengers</h2>
-    <p>The Challenger division is our adaptive baseball program for individuals with physical and intellectual challenges.</p>
-    <table>
-      <tr>
-        <th>DIVISION</th>
-        <th>AGE GROUP</th>
-        <th>OPEN TO</th>
-        <th>FEE</th>
-        <th>AGE CUTOFF</th>
-      </tr>
-      <tr>
-        <td><b>Baseball Challengers</b></td>
-        <td>5+ years</td>
-        <td>Boys & Girls</td>
-        <td>2200 AED</td>
-        <td>May 1, 2021</td>
-      </tr>
-    </table>
 
     <h2>Fees</h2>
     <p>Fees include the use of fields, equipment, practices, games, uniform, team photo and end of season trophy/medal. Fees are non-refundable.</p>
@@ -134,5 +57,5 @@
     <a href="#" class="red-register">2020/21 Register Player</a>
     <p>Registration closes October 5, 2020</p>
   </div>
-  
+
 {% endblock %}
