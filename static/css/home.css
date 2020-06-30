@@ -10,7 +10,7 @@
 /* POSITION OF TITLE */
 .page-title-elements {
   position: absolute;
-  Top: 50%;
+  top: 50%;
   left: 5%;
 }
 

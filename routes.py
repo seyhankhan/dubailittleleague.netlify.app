@@ -8,7 +8,7 @@
 
 from flask import Flask, render_template, session, request, Markup
 from data import *
-svg = {k: Markup(v) for k, v in svg.items()}
+svg = {key: Markup(value) for key, value in svg.items()}
 
 
 ################################### INIT APP ###################################
@@ -53,7 +53,9 @@ def volunteer():
 
 
 @app.route('/schedule')
-def schedule():	return render_template('schedule.html',svg=svg)
+def schedule():
+	return render_template('schedule.html',
+												 svg=svg)
 
 
 ################################# OTHER ROUTES #################################
@@ -67,13 +69,14 @@ def not_found(e):
 		<h1 style="font-family:Avenir,'Nunito Sans';font-weight:lighter;">
 			<strong>""" + request.path + """</strong> doesnt exist u moron.
 		</h1>
-		<br><hr><br><h2 style="font-family:Avenir,'Nunito Sans';font-weight:lighter;">
+		<br><hr><br>
+		<h2 style="font-family:Avenir,'Nunito Sans';font-weight:lighter;">
 			if u think it should, put this in <b>routes.py</b>, <b>line 19</b> as a <b>temporary fix</b>
 		</h2>
 		<code><pre style="padding:20px;padding-right:30px;display:inline-block;background-color:#f1f1f1;">@app.route('""" + request.path + """')
 def temporary():
-	return render_template('"""+request.path[1:]+""".html',svg=svg)</pre><code>
-		"""
+	return render_template('"""+request.path[1:]+""".html',svg=svg)</pre>
+		<code>"""
 
 
 #################################### APP RUN ###################################
