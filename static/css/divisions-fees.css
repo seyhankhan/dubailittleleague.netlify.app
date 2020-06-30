@@ -108,7 +108,11 @@ th, td {
 .banner h2{
   color: #231F20;
   font-weight: bold;
-  margin-block-end: 1em;
+  margin-block-end: 2em;
+}
+
+.banner p {
+  margin-block-start: 3em;
 }
 
 .red-register {
