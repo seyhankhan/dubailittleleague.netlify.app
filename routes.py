@@ -60,13 +60,17 @@ def schedule():	return render_template('schedule.html',svg=svg)
 def not_found(e):
 	print(e)
 	return """
-		<h1 style="font-family:Avenir,'Nunito Sans';font-weight:lighter;margin-bottom:0;">
+		<img src="https://image.freepik.com/free-vector/404-error-web-template-with-mad-cat_23-2147763345.jpg" align="left">
+		<h1 style="font-family:Avenir,'Nunito Sans';font-weight:lighter;">
 			<strong>""" + request.path + """</strong> doesnt exist u moron.
 		</h1>
-		<code><pre>@app.route('""" + request.path + """')
+		<br><hr><br><h2 style="font-family:Avenir,'Nunito Sans';font-weight:lighter;">
+			if u think it should, put this in <b>routes.py</b>, <b>line 19</b> as a <b>temporary fix</b>
+		</h2>
+		<code><pre style="padding:20px;padding-right:30px;display:inline-block;background-color:#f1f1f1;">@app.route('""" + request.path + """')
 def temporary():
 	return render_template('"""+request.path[1:]+""".html',svg=svg)</pre><code>
-		<img src="https://image.freepik.com/free-vector/404-error-web-template-with-mad-cat_23-2147763345.jpg">"""
+		"""
 
 
 #################################### APP RUN ###################################
