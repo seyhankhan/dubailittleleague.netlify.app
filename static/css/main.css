@@ -133,11 +133,22 @@ p {
   font-weight: bold;
 }
 
-
 .downArrow:hover {
   cursor:pointer;
 }
 
+#bigTextOverlay {
+  font-size: 13em;
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.1);
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  top: 38%;
+  right: 0%;
+  overflow: hidden;
+  width: 1150px;
+}
 
 .cover {
   height: 100vh;
