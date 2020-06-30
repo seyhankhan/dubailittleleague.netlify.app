@@ -38,7 +38,7 @@ def divisions_fees():
 
 @app.errorhandler(404)
 def not_found(e):
-	print(str(e))
+	print(e)
 	return """
 		<h1 style="font-family:Avenir,'Nunito Sans';font-weight:lighter;">
 			<strong>""" + request.path + """</strong> doesnt exist u moron.
