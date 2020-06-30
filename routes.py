@@ -42,7 +42,8 @@ def divisions_fees():
 
 @app.route('/volunteer')
 def volunteer():
-	return render_template('volunteer.html')
+	return render_template('volunteer.html',
+												 svg=svg)
 
 
 ################################### SCHEDULE ###################################
@@ -50,7 +51,8 @@ def volunteer():
 
 @app.route('/schedule')
 def schedule():
-	return render_template('schedule.html')
+	return render_template('schedule.html',
+	                       svg=svg)
 
 
 ################################# OTHER ROUTES #################################
