@@ -157,6 +157,7 @@ p {
   background-size: cover;
 }
 
+/* so u cant highlight the text with your mouse */
 .unselectable {
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
