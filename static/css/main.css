@@ -147,9 +147,9 @@ p {
 /* --------------------------------------------------------------------------- */
 
 /* AUTO SCROLL DOWN */
-.downArrow {
+#downArrow {
   position: absolute;
-  right: 45%;
+  right: 40%;
   top: 80%;
 }
 
@@ -175,6 +175,16 @@ p {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* --------------------------------------------------------------------------- */
+                              /* MAIN CONTENT */
+/* --------------------------------------------------------------------------- */
+
+/* MAIN CONTENT SUMMARY */
+#summary {
+  font-weight: bold;
+  text-align: center;
 }
 
 /* --------------------------------------------------------------------------- */
