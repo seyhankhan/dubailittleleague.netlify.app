@@ -32,3 +32,4 @@ divisionTable = {
     ['Baseball Challengers','5+ years',   'Boys & Girls', '2200 AED', "May 1, 2021"],
   ]
 }
+challengerDescription = "The Challenger division is our adaptive baseball program for individuals with physical and intellectual challenges."
