@@ -56,13 +56,18 @@
 .main-info h2 {
   font-weight: bold;
   color: #231F20;
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.main-info hr {
+  border: 0.5px solid #A7A5A6;
 }
 
 .position h3 {
   font-size: 0.8em;
   font-weight: bold;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
@@ -71,6 +76,14 @@
   font-size: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+#position-filled {
+  color: #AB3428;
+}
+
+#required {
+  color: #2C6E49;
 }
 
 #summary {
