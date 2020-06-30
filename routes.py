@@ -42,7 +42,8 @@ def not_found(e):
 	return """
 		<h1 style="font-family:Avenir,'Nunito Sans';font-weight:lighter;">
 			<strong>""" + request.path + """</strong> doesnt exist u moron.
-		</h1>"""
+		</h1>
+		<img src="https://image.freepik.com/free-vector/404-error-web-template-with-mad-cat_23-2147763345.jpg">"""
 
 
 #################################### APP RUN ###################################
