@@ -44,7 +44,7 @@
 }
 
 .main-info {
-  width: 50%;
+  width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -56,7 +56,34 @@
 .main-info h2 {
   font-weight: bold;
   color: #231F20;
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.main-info hr {
+  border: 0.5px solid #A7A5A6;
+}
+
+.position h3 {
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.position h4 {
+  font-size: 0.7em;
+  font-size: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+#position-filled {
+  color: #AB3428;
+}
+
+#required {
+  color: #2C6E49;
 }
 
 #summary {
@@ -74,24 +101,4 @@
 
 #help svg {
   margin-right: 15px;
-}
-
-table {
-  border-spacing: 0;
-  margin-top: 20px;
-  width: 100%;
-}
-
-th {
-  font-size: 0.8em;
-  letter-spacing: 0.1em;
-  color: #4f4c4d;
-}
-
-td {
-  border-top: 1px solid #A6A5A6;
-}
-
-th, td {
-  padding: 10px;
 }
