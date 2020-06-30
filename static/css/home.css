@@ -8,14 +8,14 @@
 /*                                   Title / Subtitle                         */
 
 /* POSITION OF TITLE */
-.content {
+.page-title-elements {
   position: absolute;
   Top: 50%;
   left: 5%;
 }
 
 /* LINE */
-.content hr {
+.page-title-elements hr {
   width: 60%;
   border: 1px solid white;
   position: absolute;
