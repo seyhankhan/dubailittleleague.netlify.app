@@ -11,14 +11,14 @@
 }
 
 /* TITLE AND LINE POSITIONING*/
-.page-title-elements {
+.page-title-and-line {
   position: absolute;
   top: 50%;
   left: 5%;
 }
 
 /* POSITIONING AND SIZE OF TITLE WHITE LINE */
-.page-title-elements hr {
+.page-title-and-line hr {
   width: 60%;
   border: 1px solid white;
   position: absolute;
@@ -28,7 +28,7 @@
 }
 
 /* SUBTITLE POSITIONING*/
-.sub-title {
+.subtitle {
   text-align: right;
   margin-block-end: 0.8em;
 }
@@ -57,14 +57,20 @@
   margin: 4% 9%;
 }
 
+/* --------------------------------------------------------------------------- */
+                              /*  CONTACT US */
+/* --------------------------------------------------------------------------- */
+
+iframe {
+  width:"100%";
+  height:"250";
+  border:0;
+}
+
 .contact-us {
   vertical-align: middle;
   display: table-cell;
 }
-
-/* --------------------------------------------------------------------------- */
-                              /*  CONTACT US */
-/* --------------------------------------------------------------------------- */
 
 .footer {
   padding: 50px;
@@ -82,10 +88,4 @@
 
 .footer svg {
   margin-right: 15px;
-}
-
-iframe {
-  width:"100%";
-  height:"250";
-  border:0;
 }

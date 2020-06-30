@@ -11,14 +11,14 @@
 }
 
 /* TITLE AND LINE POSITIONING*/
-.page-title-elements {
+.page-title-and-line {
   position: absolute;
   Top: 65%;
   left: 10%;
 }
 
 /* POSITIONING AND SIZE OF TITLE WHITE LINE */
-.page-title-elements hr {
+.page-title-and-line hr {
   width: 100%;
   border: 1px solid white;
   position: absolute;
