@@ -1,5 +1,6 @@
 /* ######################## JavaScript for index.html ####################### */
 window.onscroll = function() {
+  scrollDownTime = 800; // in milliseconds
   maximumTransparency = 0.7;
   heightMaxPercentage = 0.3527;
   startingMarginTop = 20;
@@ -12,5 +13,5 @@ window.onscroll = function() {
 function goDownToContent() {
     $('html, body').animate({
         scrollTop: $("#downArrow").offset().top + $("#downArrow").height()
-    }, 800 ); //in ms
+    }, scrollDownTime );
 }
