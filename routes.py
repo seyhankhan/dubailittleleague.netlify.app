@@ -1,6 +1,6 @@
 ############## Seyhan Van Khan & Alizeh Khan
 ############## Dubai Little League
-############## June 2020
+############## June 2020 - July 2020
 ############## dubailittleleague.com
 
 ################################ IMPORT MODULES ################################
@@ -71,7 +71,7 @@ def not_found(e):
 		</h1>
 		<br><hr><br>
 		<h2 style="font-family:Avenir,'Nunito Sans';font-weight:lighter;">
-			if u think it should, put this in <b>routes.py</b>, <b>line 19</b> as a <b>temporary fix</b>
+			if u think it should, put this in <b>routes.py</b>, <b>line 23</b> as a <b>temporary fix</b>
 		</h2>
 		<code><pre style="padding:20px;padding-right:30px;display:inline-block;background-color:#f1f1f1;">@app.route('""" + request.path + """')
 def temporary():
