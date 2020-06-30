@@ -6,7 +6,9 @@
 ################################ IMPORT MODULES ################################
 
 
-from flask import Flask, render_template, session, request
+from flask import Flask, render_template, session, request, Markup
+from vectors import svg
+svg = {k: Markup(v) for k, v in svg.items()}
 
 
 ################################### INIT APP ###################################
@@ -22,6 +24,7 @@ app.secret_key = "stubblyainslieprocrastination"
 @app.route('/')
 def index():
 	return render_template('index.html',
+												 svg=svg,
 						             session_username=session['username'] if 'username' in session else None)
 
 
@@ -30,7 +33,8 @@ def index():
 
 @app.route('/divisions-fees')
 def divisions_fees():
-	return render_template('divisions-fees.html')
+	return render_template('divisions-fees.html',
+												 svg=svg)
 
 
 ################################# OTHER ROUTES #################################

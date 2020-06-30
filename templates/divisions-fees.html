@@ -3,7 +3,7 @@
 
 {% block head %}
   <link rel="stylesheet" href="static/css/divisions-fees.css">
-  <script type="text/javascript" src="static/js/navbar.js"></script>
+  <script type="text/javascript" src="static/js/scrollDown.js"></script>
   <script type="text/javascript" src="static/js/jquery/jquery.min.js"></script>
   <title>Divisions & Fees</title>
 {% endblock %}
@@ -11,17 +11,19 @@
 
 {% block body %}
   <div class="row cover">
-    <p id="downArrow" class="fade">Division</p>
-    <svg onclick="goDownToContent()" class="downArrow" xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+    <p id="bigTextOverlay" class="fade">Division</p>
+    {{ svg['scroll down arrow'] }}
     <div class="content">
       <h1 class="title">Divisions & Fees</h1>
       <hr>
     </div>
   </div>
   <div class="row main-info">
-    <p id="summary">We are a developmental league that welcomes all skill levels. All registered players are assessed on their fielding, throwing, catching, and hitting skills. This is used to create balanced teams across each division.</p>
+    <p id="summary">
+      We are a developmental league that welcomes all skill levels. All registered players are assessed on their fielding, throwing, catching, and hitting skills. This is used to create balanced teams across each division.
+    </p>
     <p id="help">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+      {{ svg['help'] }}
       Your baseball age is determined by your child's age on the <b>AGE CUTOFF</b> date.
     </p>
 
