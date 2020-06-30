@@ -1,6 +1,9 @@
 /* ######################### main CSS for all pages ######################### */
 
-/*                                    Grid                                   */
+/* --------------------------------------------------------------------------- */
+                                /* GRID */
+/* --------------------------------------------------------------------------- */
+
 * {
   box-sizing: border-box;
 }
@@ -30,7 +33,11 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-/*                                    Fonts                                   */
+/* --------------------------------------------------------------------------- */
+                                  /*FONTS */
+/* --------------------------------------------------------------------------- */
+
+/* (backup fonts) */
 @font-face {
   font-family: 'Nunito Sans';
   font-weight: 300;
@@ -82,7 +89,11 @@ p {
   font-weight: lighter;
 }
 
-/*                            Navigation                                      */
+/* --------------------------------------------------------------------------- */
+                                /* HEADER */
+/* --------------------------------------------------------------------------- */
+
+/* positioning, main margins */
 .header {
   position: absolute;
   width: 100%;
@@ -97,6 +108,7 @@ p {
   padding: 0;
 }
 
+
 .header li a {
   display: inline-block;
   text-align: center;
@@ -107,6 +119,10 @@ p {
   letter-spacing: 0.1em;
   color: #ffffff;
 }
+
+/* --------------------------------------------------------------------------- */
+                                /* PAGE MENU */
+/* --------------------------------------------------------------------------- */
 
 .nav li a {
   float: left;
@@ -122,17 +138,11 @@ p {
   font-weight: bold;
 }
 
-#log-in {
-  font-weight: bold;
-}
+/* --------------------------------------------------------------------------- */
+                              /* COVER PAGE */
+/* --------------------------------------------------------------------------- */
 
-#register-button {
-  color: #231F20;
-  background-color: white;
-  border-radius: 4px;
-  font-weight: bold;
-}
-
+/* auto scroll down button */
 .downArrow:hover {
   cursor:pointer;
 }
@@ -157,15 +167,60 @@ p {
   background-size: cover;
 }
 
-/* so u cant highlight the text with your mouse */
-.unselectable {
-  -webkit-user-select: none;  /* Chrome all / Safari all */
-  -moz-user-select: none;     /* Firefox all */
-  -ms-user-select: none;      /* IE 10+ */
-  user-select: none;          /* Likely future */
+/* --------------------------------------------------------------------------- */
+                              /* BANNER */
+/* --------------------------------------------------------------------------- */
+.banner {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: #E9E8E8;
+  padding: 50px;
 }
 
-/*                               creators                                      */
+.banner h2{
+  color: #231F20;
+  font-weight: bold;
+  margin-block-end: 2em;
+}
+
+.banner p {
+  margin-block-start: 3em;
+}
+
+/* --------------------------------------------------------------------------- */
+                              /* BUTTONS */
+/* --------------------------------------------------------------------------- */
+
+#log-in-button {
+  font-weight: bold;
+}
+
+#register-button {
+  color: #231F20;
+  background-color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.red-register {
+  color: white;
+  background-color: #AB3428;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: right;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+}
+
+/* --------------------------------------------------------------------------- */
+                            /* BY SEYHAN & ALIZEH */
+/* --------------------------------------------------------------------------- */
+
 .creators {
   color: white;
   background-color: #231F20;
@@ -180,4 +235,14 @@ p {
 .creators h6 a:hover {
   cursor:pointer;
   text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------- */
+                        /* STOP HIGHLIGHTING TEXT */
+/* --------------------------------------------------------------------------- */
+.unselectable {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
 }
