@@ -82,35 +82,3 @@ td {
 th, td {
   padding: 10px;
 }
-
-.banner {
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
-  background-color: #E9E8E8;
-  padding: 50px;
-}
-
-.banner h2{
-  color: #231F20;
-  font-weight: bold;
-  margin-block-end: 2em;
-}
-
-.banner p {
-  margin-block-start: 3em;
-}
-
-.red-register {
-  color: white;
-  background-color: #AB3428;
-  border-radius: 4px;
-  font-weight: bold;
-  text-align: right;
-  padding: 12px 20px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 0.8em;
-  letter-spacing: 0.1em;
-}
