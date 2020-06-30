@@ -37,12 +37,6 @@
                               /* SPONSORS */
 /* --------------------------------------------------------------------------- */
 
-.sponsors {
-  text-align: justify;
-  background-color: white;
-  margin: 4% 9%;
-}
-
 /* SIZING OF SPONSORS */
 .sponsors img {
   height: 100px;
@@ -55,6 +49,12 @@
   content: "";
   width: 100vw;
   display: inline-block;
+}
+
+.sponsors {
+  text-align: justify;
+  background-color: white;
+  margin: 4% 9%;
 }
 
 .contact-us {
