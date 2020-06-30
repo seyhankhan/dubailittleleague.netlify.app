@@ -1,13 +1,8 @@
 /*                                   Cover photo                              */
 .cover {
-  height: 100vh;
   background-image:
-  linear-gradient(to bottom, rgba(35, 31, 32, 0.4), rgba(35, 31, 32, 0.4)),
-  url("../images/home-cover.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-size: cover;
+    linear-gradient(to bottom, rgba(35, 31, 32, 0.4), rgba(35, 31, 32, 0.4)),
+    url("../images/home-cover.jpg");
 }
 
 /*                                   Title / Subtitle                         */

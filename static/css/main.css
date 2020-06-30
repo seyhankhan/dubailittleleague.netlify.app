@@ -118,7 +118,7 @@ p {
   margin-right: 20px;
 }
 
-.header li a:hover {
+.header li a:hover, .active {
   font-weight: bold;
 }
 
@@ -132,6 +132,20 @@ p {
   border-radius: 4px;
   font-weight: bold;
 }
+
+
+
+
+.cover {
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+
+
+
 
 /*                               creators                                      */
 .creators {

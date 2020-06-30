@@ -6,7 +6,7 @@
 ################################ IMPORT MODULES ################################
 
 
-from flask import Flask, render_template, session
+from flask import Flask, render_template, session, request
 
 
 ################################### INIT APP ###################################
@@ -31,6 +31,18 @@ def index():
 @app.route('/divisions-fees')
 def divisions_fees():
 	return render_template('divisions-fees.html')
+
+
+################################# OTHER ROUTES #################################
+
+
+@app.errorhandler(404)
+def not_found(e):
+	print(str(e))
+	return """
+		<h1 style="font-family:Avenir,'Nunito Sans';font-weight:lighter;">
+			<strong>""" + request.path + """</strong> doesnt exist u moron.
+		</h1>"""
 
 
 #################################### APP RUN ###################################
