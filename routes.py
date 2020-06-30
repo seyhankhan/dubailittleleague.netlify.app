@@ -7,7 +7,7 @@
 
 
 from flask import Flask, render_template, session, request, Markup
-from vectors import svg
+from data import *
 svg = {k: Markup(v) for k, v in svg.items()}
 
 
@@ -34,6 +34,8 @@ def index():
 @app.route('/divisions-fees')
 def divisions_fees():
 	return render_template('divisions-fees.html',
+												 divisionTableHeaders=divisionTableHeaders,
+												 divisionTable=divisionTable,
 												 svg=svg)
 
 
