@@ -36,6 +36,7 @@ def divisions_fees():
 	return render_template('divisions-fees.html',
 												 divisionTableHeaders=divisionTableHeaders,
 												 divisionTable=divisionTable,
+												 challengerDescription=challengerDescription,
 												 svg=svg)
 
 
