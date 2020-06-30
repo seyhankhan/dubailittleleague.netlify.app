@@ -13,7 +13,7 @@
 /* TITLE AND LINE POSITIONING*/
 .page-title-and-line {
   position: absolute;
-  Top: 65%;
+  top: 65%;
   left: 10%;
 }
 
@@ -27,15 +27,11 @@
   margin-block-start: 0.2em;
 }
 
-.downArrow {
-  position: absolute;
-  right: 5%;
-  top: 80%;
-}
-
 /* --------------------------------------------------------------------------- */
                               /* MAIN CONTENT */
 /* --------------------------------------------------------------------------- */
+
+/* POSITIONING AND ALIGNMENT OF MAIN CONTENT */
 .main-info {
   width: 50%;
   display: block;

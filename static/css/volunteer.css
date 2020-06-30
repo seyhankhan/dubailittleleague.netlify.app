@@ -1,20 +1,23 @@
-/*                                   Cover photo                              */
+
+/* --------------------------------------------------------------------------- */
+                              /* COVER PAGE */
+/* --------------------------------------------------------------------------- */
+
+/* COVER PHOTO FOR PAGE */
 .cover {
   background-image:
     linear-gradient(to bottom, rgba(35, 31, 32, 0.4), rgba(35, 31, 32, 0.4)),
     url("../images/volunteer-cover.jpg");
 }
 
-/*                                   Title / Subtitle                         */
-
-/* POSITION OF TITLE */
+/* TITLE AND LINE POSITIONING*/
 .page-title-and-line {
   position: absolute;
   top: 65%;
   left: 10%;
 }
 
-/* LINE */
+/* POSITIONING AND SIZE OF TITLE WHITE LINE */
 .page-title-and-line hr {
   width: 100%;
   border: 1px solid white;
@@ -24,14 +27,11 @@
   margin-block-start: 0.2em;
 }
 
-/* SCROLL DOWN */
-.cover svg {
-  position: absolute;
-  right: 5%;
-  top: 80%;
-}
+/* --------------------------------------------------------------------------- */
+                              /* MAIN CONTENT */
+/* --------------------------------------------------------------------------- */
 
-/* DIMENSIONS OF MAIN CONTENT */
+/* POSITIONING AND ALIGNMENT OF MAIN CONTENT */
 .main-info {
   width: 70%;
   display: block;
@@ -42,6 +42,18 @@
   text-align: left;
 }
 
+/* MAIN CONTENT SUMMARY */
+#summary {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+/* --------------------------------------------------------------------------- */
+                              /* POSITION CONTENT */
+/* --------------------------------------------------------------------------- */
+
+/* MAIN CONTENT HEADINGS */
 .main-info h2 {
   font-weight: bold;
   color: #231F20;
@@ -49,10 +61,12 @@
   margin-bottom: 30px;
 }
 
+/* LINE UNDER POSITION HEADERS */
 .main-info hr {
   border: 0.5px solid #A7A5A6;
 }
 
+/* NAME OF POSITION */
 .position h3 {
   font-size: 0.8em;
   font-weight: bold;
@@ -60,6 +74,7 @@
   text-transform: uppercase;
 }
 
+/* POSITION STATUS */
 .position h4 {
   font-size: 0.7em;
   font-size: bold;
@@ -67,16 +82,12 @@
   text-transform: uppercase;
 }
 
-#position-filled {
+/* RED POSITION FILLED */
+#position-status-filled {
   color: #AB3428;
 }
 
-#required {
+/* GREEN POSITION REQUIRED */
+#position-status-required {
   color: #2C6E49;
-}
-
-#summary {
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 80px;
 }
