@@ -1,8 +1,11 @@
 /* ########################################################################### */
-/* ########################################################################### */
+
+
                         /*  MAIN CSS FOR ALL PAGES  */
+
+
 /* ########################################################################### */
-/* ########################################################################### */
+
 
 /* --------------------------------------------------------------------------- */
                                 /* GRID */
@@ -42,19 +45,19 @@
                                   /*FONTS */
 /* --------------------------------------------------------------------------- */
 
-/* (backup fonts) */
+/* importing backup fonts for non-mac users */
 @font-face {
   font-family: 'Nunito Sans';
   font-weight: 300;
   src: url('../fonts/NunitoSans-Light.ttf');
 }
-
 @font-face {
   font-family: 'Nunito Sans';
   font-weight: 700;
   src: url('../fonts/NunitoSans-Bold.ttf');
 }
 
+/* primary font, sizing */
 body {
   font-family: Avenir, 'Nunito Sans';
   font-size: 1em;
