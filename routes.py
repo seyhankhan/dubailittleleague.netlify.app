@@ -37,6 +37,22 @@ def divisions_fees():
 												 svg=svg)
 
 
+################################### VOLUNTEER ##################################
+
+
+@app.route('/volunteer')
+def volunteer():
+	return render_template('volunteer.html')
+
+
+################################### SCHEDULE ###################################
+
+
+@app.route('/schedule')
+def schedule():
+	return render_template('schedule.html')
+
+
 ################################# OTHER ROUTES #################################
 
 
@@ -49,9 +65,6 @@ def not_found(e):
 		</h1>
 		<img src="https://image.freepik.com/free-vector/404-error-web-template-with-mad-cat_23-2147763345.jpg">"""
 
-@app.route('/volunteer')
-def volunteer():
-	return render_template('volunteer.html')
 
 #################################### APP RUN ###################################
 
