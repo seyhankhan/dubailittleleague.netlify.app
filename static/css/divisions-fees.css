@@ -11,16 +11,16 @@
 .page-title-elements {
   position: absolute;
   Top: 65%;
-  left: 5%;
+  left: 10%;
 }
 
 /* LINE */
 .page-title-elements hr {
-  width: 70%;
+  width: 100%;
   border: 1px solid white;
   position: absolute;
   margin: 0;
-  left: -15%;
+  left: -30%;
   margin-block-start: 0.2em;
 }
 
