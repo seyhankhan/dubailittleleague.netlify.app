@@ -58,6 +58,15 @@ def schedule():
 												 svg=svg)
 
 
+################################### LOG IN ###################################
+
+
+@app.route('/log-in')
+def temporary():
+	return render_template('log-in.html',
+												 svg=svg)
+
+
 ################################# OTHER ROUTES #################################
 
 
