@@ -4,6 +4,8 @@
 
 {% block head %}
   <link rel="stylesheet" href="static/css/home.css">
+  <script type="text/javascript" src="static/js/scrollDown.js"></script>
+  <script type="text/javascript" src="static/js/jquery/jquery.min.js"></script>
   <title>Dubai Little League</title>
 {% endblock %}
 
@@ -19,20 +21,24 @@
     </div>
   </div>
   <div class="map">
-    <iframe width="100%" height="400px;" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCpgQifRjTn5PN0OFLBIqKGlVXdhOCp_6M&q=Dubai+Little+League&zoom=13" allowfullscreen></iframe>
+    <iframe
+      width="100%" height="400px;"
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCpgQifRjTn5PN0OFLBIqKGlVXdhOCp_6M&q=Dubai+Little+League&zoom=13"
+      allowfullscreen>
+    </iframe>
   </div>
   <div class="row footer">
     <div class="col-4 contact">
-      <h2>Contact</h2>
+      <h2 class="unselectable">Contact</h2>
       <p>{{ svg['email'] }} contact@dubailittleleague.com</p>
       <p>{{ svg['phone'] }} +971 50 827 7357</p>
     </div>
-    <div class="col-3 social">
+    <div class="col-3 social unselectable">
       <h2>Social</h2>
       <p>{{ svg['instagram'] }} Instagram</p>
       <p>{{ svg['facebook'] }} Facebook</p>
     </div>
-    <div class="col-5 sponsors">
+    <div class="col-5 sponsors unselectable">
       <h2>Sponsors</h2>
       <img src="static/images/emirates.png">
       <img src="static/images/subway.png">

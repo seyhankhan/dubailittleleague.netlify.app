@@ -1,10 +1,15 @@
 /* ###################### JavaScript for scrolling down ##################### */
 function goDownToContent() {
   scrollDownTime = 800; // in milliseconds
-
-  $('html, body').animate({
-    scrollTop: $("#bigTextOverlay").offset().top + $("#bigTextOverlay").height()
-  }, scrollDownTime);
+  if (window.location.pathname === "/") {
+    $('html, body').animate({
+      scrollTop: $("iframe").offset().top
+    }, scrollDownTime);
+  } else {
+    $('html, body').animate({
+      scrollTop: $("#bigTextOverlay").offset().top + $("#bigTextOverlay").height()
+    }, scrollDownTime);
+  }
 }
 
 // window.onscroll = function() {

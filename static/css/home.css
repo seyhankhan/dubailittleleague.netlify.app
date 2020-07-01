@@ -44,7 +44,7 @@
 
 /* GOOGLE MAP */
 iframe {
-  border: none;
+  border: 0;
   margin: 0;
   padding: 0;
   display:block;
