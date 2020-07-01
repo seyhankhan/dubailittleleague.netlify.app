@@ -43,52 +43,41 @@
 /* --------------------------------------------------------------------------- */
 
 /* SIZING OF SPONSORS */
-.sponsors img {
-  height: 100px;
+/* .sponsors img {
+  height: 50px;
   display: inline-block;
   vertical-align: middle;
-}
+} */
 
   /* EVENLY SPACES SPONSORS HORIZONTALLY*/
-.sponsors:after {
+/* .sponsors:after {
   content: "";
   width: 100vw;
   display: inline-block;
-}
+} */
 
-.sponsors {
+/* .sponsors {
   text-align: justify;
-  background-color: white;
-  margin: 4% 9%;
+  margin: 4% 9%; */
 }
 
 /* --------------------------------------------------------------------------- */
-                              /*  CONTACT US */
+                              /*  CONTACT */
 /* --------------------------------------------------------------------------- */
 
 iframe {
   border: 0;
 }
 
-.contact-us {
-  vertical-align: middle;
-  display: table-cell;
-}
-
 .footer {
-  padding: 50px;
-  background-color: #E9E8E8;
-}
-
-.footer h2 {
-  color: #231F20;
-  font-weight: bold;
+  color: white;
+  background-color: #231F20;
+  padding: 80px;
 }
 
 .footer p {
-  line-height: 1.9em;
-}
-
-.footer svg {
-  margin-right: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
 }

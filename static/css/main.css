@@ -25,7 +25,7 @@
   display: table;
 }
 
-/* library of different width columns to use */
+/* LIBRARY OF DIFFERENT WIDTH COLUMNS TO USE */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -43,7 +43,7 @@
                                   /*FONTS */
 /* --------------------------------------------------------------------------- */
 
-/* importing backup fonts for non-mac users */
+/* BACKUP FONTS FOR NON-MAC USERS*/
 @font-face {
   font-family: 'Nunito Sans';
   font-weight: 300;
@@ -55,7 +55,7 @@
   src: url('../fonts/NunitoSans-Bold.ttf');
 }
 
-/* primary font, sizing */
+/* PRIMARY FONT SETTINGS*/
 body {
   font-family: Avenir, 'Nunito Sans';
   font-size: 1em;
@@ -149,7 +149,7 @@ p {
 /* AUTO SCROLL DOWN */
 #downArrow {
   position: absolute;
-  right: 40%;
+  left: 47%;
   top: 80%;
 }
 
@@ -247,6 +247,7 @@ p {
   text-align: center;
   padding: 15px;
   font-size: 0.9em;
+  margin: 0;
 }
 .creators h6 a {
   color: white;
