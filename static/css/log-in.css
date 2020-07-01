@@ -58,5 +58,16 @@
   padding: 15px 13px;
   font-size: 1em;
   color: #231F20;
-  font-family: Avenir, 'Nunito Sans'
+  font-family: Avenir, 'Nunito Sans';
+  outline: none;
+}
+
+.email:focus {
+  background-color: #E8E8E8;
+  border: 2px solid #707070;
+}
+
+.label {
+  position: absolute;
+  color: #656565;
 }
