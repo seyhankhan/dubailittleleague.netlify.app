@@ -67,13 +67,17 @@
 
 /* GOOGLE MAP */
 iframe {
-  border: 0;
+  border: none;
+  margin: 0;
+  padding: 0;
+  display:block;
 }
 
 .footer {
   color: white;
   background-color: #231F20;
-  padding: 90px;
+  padding: 80px;
+  line-height: 20px;
 }
 
 .footer p {
