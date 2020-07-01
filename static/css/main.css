@@ -245,7 +245,8 @@ p {
   color: white;
   background-color: #231F20;
   text-align: center;
-  padding: 15px;
+  height: 5vh;
+  padding: 10px;
   font-size: 0.9em;
   margin: 0;
 }
