@@ -39,30 +39,7 @@
 }
 
 /* --------------------------------------------------------------------------- */
-                              /* SPONSORS */
-/* --------------------------------------------------------------------------- */
-
-/* SIZING OF SPONSORS */
-/* .sponsors img {
-  height: 50px;
-  display: inline-block;
-  vertical-align: middle;
-} */
-
-  /* EVENLY SPACES SPONSORS HORIZONTALLY*/
-/* .sponsors:after {
-  content: "";
-  width: 100vw;
-  display: inline-block;
-} */
-
-/* .sponsors {
-  text-align: justify;
-  margin: 4% 9%; */
-}
-
-/* --------------------------------------------------------------------------- */
-                              /*  CONTACT */
+                              /*  FOOTER */
 /* --------------------------------------------------------------------------- */
 
 /* GOOGLE MAP */
@@ -76,8 +53,11 @@ iframe {
 .footer {
   color: white;
   background-color: #231F20;
-  padding: 80px;
-  line-height: 20px;
+  padding: 70px;
+}
+
+.footer h2 {
+  margin-bottom: 30px;
 }
 
 .footer p {
@@ -85,4 +65,23 @@ iframe {
   font-weight: bold;
   font-size: 0.8em;
   letter-spacing: 0.1em;
+  line-height: 20px;
+}
+
+/* SIZING OF SPONSORS */
+.sponsors img {
+  height: 65px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+  /* EVENLY SPACES SPONSORS HORIZONTALLY*/
+.sponsors:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+}
+
+.sponsors {
+  text-align: justify;
 }
