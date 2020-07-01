@@ -34,6 +34,9 @@
   line-height: 25px;
 }
 
+/* --------------------------------------------------------------------------- */
+                              /* LOG IN BOX */
+/* --------------------------------------------------------------------------- */
 
 .log-in-sign-up-box {
   background-color: white;
@@ -41,6 +44,19 @@
   width: 32vw;
   position: absolute;
   border-radius: 4px;
-  top: 10%;
-  right: 6%
+  top: 12%;
+  right: 6%;
+}
+
+.input-group {
+  position: relative;
+}
+
+.email {
+  border: 2px solid #BCBBBC;
+  border-radius: 4px;
+  padding: 15px 13px;
+  font-size: 1em;
+  color: #231F20;
+  font-family: Avenir, 'Nunito Sans'
 }
