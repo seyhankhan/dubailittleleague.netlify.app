@@ -38,6 +38,14 @@
   margin-block-end: 0.8em;
 }
 
+/* BUTTON POSITIONING */
+.page-title-and-line a {
+  position: relative;
+  left: 300px;
+  top: 20px;
+  box-shadow: 2px 2px 20px #231F20;
+}
+
 /* --------------------------------------------------------------------------- */
                               /*  FOOTER */
 /* --------------------------------------------------------------------------- */
@@ -55,45 +63,16 @@ iframe {
   height: 55vh;
 }
 
-.footer svg {
-  display: inline-block;
-}
-
-.footer {
-  color: white;
+.all-sponsors {
   background-color: #231F20;
-  height: 40vh;
-  padding: 7vh;
-}
-
-.footer h2 {
-  margin-bottom: 30px;
-}
-
-.footer svg {
-  /* text-transform: uppercase;
-  font-weight: bold;
-  font-size: 0.8em;
-  letter-spacing: 0.1em; */
-  margin-right: 20px;
-  display: inline-block;
-  text-align: center;
-}
-
-/* SIZING OF SPONSORS */
-.sponsors img {
-  height: 120px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-  /* EVENLY SPACES SPONSORS HORIZONTALLY*/
-.sponsors:after {
-  content: "";
   width: 100%;
-  display: inline-block;
+  height: 40vh;
+  /* padding: 7vh; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.sponsors {
-  text-align: justify;
+.all-sponsors img {
+  width: 170px;
 }

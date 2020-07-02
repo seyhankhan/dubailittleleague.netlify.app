@@ -217,13 +217,6 @@ p {
   font-weight: bold;
 }
 
-#register-button {
-  color: #231F20;
-  background-color: white;
-  border-radius: 4px;
-  font-weight: bold;
-}
-
 #red-button {
   color: white;
   background-color: #AB3428;
@@ -244,11 +237,11 @@ p {
 .creators {
   color: white;
   background-color: #231F20;
-  text-align: center;
-  height: 5vh;
-  padding: 10px;
   font-size: 0.9em;
-  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
 }
 .creators h6 a {
   color: white;

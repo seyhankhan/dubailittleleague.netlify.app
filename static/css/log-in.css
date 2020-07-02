@@ -40,8 +40,8 @@
 
 .log-in-sign-up-box {
   background-color: white;
-  height: 50vh;
-  width: 32vw;
+  height: 450px;
+  width: 450px;
   position: absolute;
   border-radius: 4px;
   top: 12%;
@@ -60,6 +60,7 @@
   color: #231F20;
   font-family: Avenir, 'Nunito Sans';
   outline: none;
+  width: 350px;
 }
 
 .email:focus {
