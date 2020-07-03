@@ -50,3 +50,118 @@
 .main-info h2 {
   margin-top: 30px;
 }
+
+.timeline {
+  display: flex;
+  justify-content: center;
+}
+
+.months p {
+  margin-bottom: 65px;
+  margin-top: 10px;
+}
+
+.months-timeline-events p {
+  font-weight: bold;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.months-timeline-events {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.timeline hr{
+  border: 1px solid #231f20;
+}
+
+[class*="point-"] {
+  width: 10px;
+  height: 10px;
+  background-color: #231f20;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.point-1 {
+  top: 25px;
+}
+
+.point-2 {
+  top: 50px;
+}
+
+.point-3 {
+  top: 65px;
+}
+
+.point-4 {
+  top: 105px;
+}
+
+.point-5 {
+  top: 185px;
+}
+
+.point-6 {
+  top: 225px;
+}
+
+.point-7 {
+  top: 460px;
+}
+
+.point-8 {
+  top: 490px;
+}
+
+.events {
+  position: relative;
+  width: 200px;
+  margin-top: -15px;
+}
+
+[class*="events-"] {
+  position: absolute;
+}
+
+.events-1 {
+  top: 25px;
+}
+
+.events-2 {
+  top: 50px;
+}
+
+.events-3 {
+  top: 65px;
+}
+
+.events-4 {
+  top: 105px;
+}
+
+.events-5 {
+  top: 185px;
+}
+
+.events-6 {
+  top: 225px;
+}
+
+.events-7 {
+  top: 460px;
+}
+
+.events-8 {
+  top: 490px;
+}
