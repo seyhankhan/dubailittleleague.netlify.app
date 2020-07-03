@@ -1,0 +1,74 @@
+/* --------------------------------------------------------------------------- */
+                              /* COVER PAGE */
+/* --------------------------------------------------------------------------- */
+
+/* COVER PHOTO FOR PAGE */
+.cover {
+  background-image:
+    linear-gradient(to bottom, rgba(35, 31, 32, 0.4), rgba(35, 31, 32, 0.4)),
+    url("../images/log-in-cover.jpg");
+    background-position: center top;
+}
+
+/* TITLE AND LINE POSITIONING*/
+.page-title-and-line {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.subtitle {
+  color: white;
+  font-weight: lighter;
+  margin-block-start: 1.2em;
+  font-size: 1.5em;
+}
+
+.cover p {
+  color: white;
+  margin-block-start: 1.2em;
+  line-height: 25px;
+}
+
+/* --------------------------------------------------------------------------- */
+                              /* SIGN UP BOX */
+/* --------------------------------------------------------------------------- */
+
+.log-in-sign-up-box {
+  background-color: white;
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  border-radius: 4px;
+  top: 12%;
+  right: 6%;
+}
+
+.input-group {
+  position: relative;
+}
+
+.email {
+  border: 2px solid #BCBBBC;
+  border-radius: 4px;
+  padding: 15px 13px;
+  font-size: 1em;
+  color: #231F20;
+  font-family: Avenir, 'Nunito Sans';
+  outline: none;
+  width: 350px;
+}
+
+.email:focus {
+  background-color: #E8E8E8;
+  border: 2px solid #707070;
+}
+
+.label {
+  position: absolute;
+  color: #656565;
+}

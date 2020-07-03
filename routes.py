@@ -67,6 +67,15 @@ def temporary():
 												 svg=svg)
 
 
+################################# SIGN UP #################################
+
+
+# @app.route('/sign-up')
+# def sign_up():
+# 	return render_template('sign-up.html',
+# 												 svg=svg)
+
+
 ################################# OTHER ROUTES #################################
 
 
