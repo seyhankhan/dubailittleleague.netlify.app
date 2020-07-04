@@ -67,17 +67,12 @@
 }
 
 .months-timeline-events p {
-  /* font-weight: bold; */
   font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 .months-timeline-events {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 50px; */
   position: absolute;
   display: flex;
   flex-direction: row;
