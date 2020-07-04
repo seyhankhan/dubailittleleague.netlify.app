@@ -63,20 +63,26 @@
 .months p {
   margin-bottom: 65px;
   margin-top: 10px;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .months-timeline-events p {
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 .months-timeline-events {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 50px; */
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  right: 16vw;
+  top: 15vh;
 }
 
 .timeline {
@@ -86,13 +92,13 @@
 }
 
 .timeline hr{
-  border: 1px solid #231f20;
+  border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
 [class*="point-"] {
   width: 10px;
   height: 10px;
-  background-color: #231f20;
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
   position: absolute;
 }
@@ -133,6 +139,8 @@
   position: relative;
   width: 200px;
   margin-top: -15px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: lighter;
 }
 
 [class*="events-"] {
