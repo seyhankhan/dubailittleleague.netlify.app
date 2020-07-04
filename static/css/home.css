@@ -43,7 +43,6 @@
   position: relative;
   left: 300px;
   top: 20px;
-  box-shadow: 2px 2px 20px #231F20;
 }
 
 /* --------------------------------------------------------------------------- */
@@ -74,4 +73,22 @@ iframe {
 
 .all-sponsors img {
   width: 170px;
+}
+
+/* --------------------------------------------------------------------------- */
+                      /*  CONTACT ICONS FLOATING BAR */
+/* --------------------------------------------------------------------------- */
+
+.contact-floating-bar {
+  background-color: rgba(35, 31, 32, 0.4);
+  width: 60px;
+  height: 240px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  top: 30vh;
 }
