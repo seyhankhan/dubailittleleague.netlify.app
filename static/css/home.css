@@ -93,7 +93,7 @@ iframe {
   top: 30vh;
 }
 
-.email-info {
+#email-info {
   width: 340px;
   height: 60px;
   background-color: rgba(35, 31, 32, 0.8);
@@ -109,7 +109,7 @@ iframe {
   float: right;
 }
 
-.phone-info {
+#phone-info {
   width: 250px;
   height: 60px;
   background-color: rgba(35, 31, 32, 0.8);
@@ -124,14 +124,14 @@ iframe {
   padding-left: 20px;
 }
 
-.email-info p {
+#email-info p {
   font-size: 0.7em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: bold;
 }
 
-.phone-info p {
+#phone-info p {
   font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
