@@ -1,16 +1,14 @@
 <!-- <html> -->
-{% extends "templater.html" %}
+{% extends "informationPagesTemplate.html" %}
 
 
-{% block head %}
-<link rel="stylesheet" href="static/css/volunteer.css">
-<script type="text/javascript" src="static/js/scrollDown.js"></script>
-<script type="text/javascript" src="static/js/jquery/jquery.min.js"></script>
-<title>Volunteer</title>
+{% block informationPagesHead %}
+  <link rel="stylesheet" href="static/css/volunteer.css">
+  <title>Volunteer</title>
 {% endblock %}
 
 
-{% block body %}
+{% block informationPagesBody %}
 <div class="row cover">
   <p id="bigTextOverlay" class="unselectable">Volunteer</p>
   {{ svg['scroll down arrow'] }}
