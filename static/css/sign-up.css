@@ -39,37 +39,23 @@
                               /* SIGN UP BOX */
 /* --------------------------------------------------------------------------- */
 
-.log-in-sign-up-box {
-  background-color: white;
-  height: 450px;
-  width: 450px;
-  position: absolute;
-  border-radius: 4px;
-  top: 12%;
-  right: 6%;
+#line-or-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.input-group {
-  position: relative;
+#line-or-line p {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.email {
-  border: 2px solid #BCBBBC;
-  border-radius: 4px;
-  padding: 15px 13px;
-  font-size: 1em;
-  color: #231F20;
-  font-family: Avenir, 'Nunito Sans';
-  outline: none;
-  width: 350px;
+#line-or-line hr {
+  width: 150px;
+  border: 1px solid rgba(35, 31, 32, 0.4);
 }
 
-.email:focus {
-  background-color: #E8E8E8;
-  border: 2px solid #707070;
-}
-
-.label {
-  position: absolute;
-  color: #656565;
+#red-button {
+  margin-top: 50px;
 }
