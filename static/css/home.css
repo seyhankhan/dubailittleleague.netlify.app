@@ -41,7 +41,7 @@
 /* BUTTON POSITIONING */
 .page-title-and-line a {
   position: relative;
-  left: 300px;
+  left: 310px;
   top: 20px;
 }
 
@@ -80,7 +80,7 @@ iframe {
 /* --------------------------------------------------------------------------- */
 
 .contact-floating-bar {
-  background-color: rgba(35, 31, 32, 0.4);
+  background-color: rgba(35, 31, 32, 0.8);
   width: 60px;
   height: 240px;
   border-radius: 4px;
@@ -91,4 +91,62 @@ iframe {
   position: fixed;
   right: 0;
   top: 30vh;
+}
+
+.email-info {
+  width: 340px;
+  height: 60px;
+  background-color: rgba(35, 31, 32, 0.8);
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  top: 0px;
+  right: 0px;
+  padding-left: 20px;
+  float: right;
+}
+
+.phone-info {
+  width: 250px;
+  height: 60px;
+  background-color: rgba(35, 31, 32, 0.8);
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  top: 60px;
+  right: 0px;
+  padding-left: 20px;
+}
+
+.email-info p {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.phone-info p {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.contact-icon-hover {
+  background-color: rgba(175, 145, 100, 1.00);
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 0px;
 }
