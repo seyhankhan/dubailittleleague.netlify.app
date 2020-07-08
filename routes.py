@@ -62,7 +62,7 @@ def schedule():
 
 
 @app.route('/log-in')
-def temporary():
+def login():
 	return render_template('log-in.html',
 												 svg=svg)
 
@@ -70,10 +70,10 @@ def temporary():
 ################################# SIGN UP #################################
 
 
-# @app.route('/sign-up')
-# def sign_up():
-# 	return render_template('sign-up.html',
-# 												 svg=svg)
+@app.route('/sign-up')
+def signup():
+	return render_template('sign-up.html',
+												 svg=svg)
 
 
 ################################# OTHER ROUTES #################################
