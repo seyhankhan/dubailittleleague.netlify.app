@@ -1,0 +1,173 @@
+/* --------------------------------------------------------------------------- */
+                              /* COVER PAGE */
+/* --------------------------------------------------------------------------- */
+
+/* COVER PHOTO FOR PAGE */
+.cover {
+  background-image:
+    linear-gradient(to bottom, rgba(35, 31, 32, 0.4), rgba(35, 31, 32, 0.4)),
+    url("../images/log-in-cover.jpg");
+    background-position: center top;
+}
+
+/* TITLE AND LINE POSITIONING*/
+.page-title-and-line {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.subtitle {
+  color: white;
+  font-weight: lighter;
+  margin-block-start: 1.2em;
+  font-size: 1.5em;
+}
+
+.cover p {
+  color: white;
+  margin-block-start: 1.2em;
+  line-height: 25px;
+}
+
+/* --------------------------------------------------------------------------- */
+                              /* LOG IN BOX */
+/* --------------------------------------------------------------------------- */
+
+.log-in-sign-up-box {
+  background-color: white;
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  border-radius: 4px;
+  top: 12%;
+  right: 6%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+
+.input-group {
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+
+.input-area {
+  border: 2px solid #BCBBBC;
+  padding: 14px 13px;
+  font-size: 1em;
+  font-family: Avenir, 'Nunito Sans';
+  outline: none;
+  border-radius: 4px;
+  color: #231F20;
+  background-color: transparent;
+  width: 350px;
+}
+
+.input-area:focus {
+  border: 2px solid #727070;
+}
+
+.input-area:focus + label {
+  top: -8px;
+  padding: 0 3px;
+  font-size: 0.8em;
+  color: #727070;
+}
+
+/* .input-area:valid {
+  border: 2px solid #306e49;
+}
+
+.input-area:valid + label {
+  top: -8px;
+  padding: 0 3px;
+  font-size: 0.8em;
+  color: #306e49;
+}
+
+.input-area:invalid {
+  border: 2px solid #ab3428;
+}
+
+.input-area:invalid + label {
+  top: -8px;
+  padding: 0 3px;
+  font-size: 0.8em;
+  color: #ab3428;
+} */
+
+label {
+  color: #7b7979;
+  position: absolute;
+  top: 16px;
+  left: 13px;
+  background-color: white;
+  transition: 0.1s;
+}
+
+/* --------------------------------------------------------------------------- */
+                              /* BUTTONS */
+/* --------------------------------------------------------------------------- */
+
+#red-button {
+  width: 350px;
+  padding: 18px;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+#google-button p {
+  font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(35, 31, 32, 1.00);
+  margin-left: 10px;
+}
+
+#google-button {
+  border-radius: 4px;
+  border: 2px solid rgba(189, 187, 188, 1.00);
+  width: 350px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+#google-button img {
+  width: 25px;
+  height: 25px;
+}
+
+.log-in-sign-up-box p {
+  color: rgba(35, 31, 32, 1.00);
+  font-size: 0.8em;
+}
+
+#forgot-password {
+  width: 350px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+#sign-up-hyperlink a {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #231f20
+}

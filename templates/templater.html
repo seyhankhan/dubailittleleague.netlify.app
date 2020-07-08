@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Google SEO -->
+    <meta charset="utf-8">
+    <meta name="author" content="Seyhan Van Khan & Alizeh Khan">
+    <meta name="description" content="Dubai Little League has over 450 players ages 4-17 playing baseball and softball in Dubai, UAE. We are a youth only league.">
+    <meta name="keywords" content="dubai,UAE,little league,baseball,softball,tee-ball,challengers">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="static/images/favicon.ico">
+    <link rel="stylesheet" href="static/css/main.css">
+
+    {% block head %}
+      <!-- ANY EXTRA <HEAD> CODE FOR EACH PAGE GOES HERE -->
+    {% endblock %}
+  </head>
+  <body>
+    <div id="navbar" class="header unselectable">
+      <div class="col-8 nav">
+        <ul>
+          <li><a {{'class=active' if request.path == '/'               else ''}} href="/">Home</a></li>
+          <li><a {{'class=active' if request.path == '/divisions-fees' else ''}} href="/divisions-fees">Divisions & Fees</a></li>
+          <li><a {{'class=active' if request.path == '/volunteer'      else ''}} href="/volunteer">Volunteer</a></li>
+          <li><a {{'class=active' if request.path == '/schedule'       else ''}} href="/schedule">Schedule</a></li>
+        </ul>
+      </div>
+      <div class="col-4 account">
+        <ul>
+          <li><a id="red-button" {{'class=active' if request.path == '/sign-up'       else ''}} href="/sign-up">Register</a></li>
+          <li><a id="log-in-button" {{'class=active' if request.path == '/log-in'       else ''}} href="/log-in">Log In</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    {% block body %}
+      <!-- ANY EXTRA <BODY> CODE FOR EACH PAGE GOES HERE -->
+    {% endblock %}
+
+
+    <div class="creators">
+      <h6>
+        Website by <a target='_blank' href='https://www.linkedin.com/in/seyhankhan/'>Seyhan Van Khan</a> & <a target='_blank' href='https://www.linkedin.com/in/alizehkhan/'>Alizeh Khan</a>
+      </h6>
+    </div>
+  </body>
+</html>
