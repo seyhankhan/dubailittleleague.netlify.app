@@ -3,13 +3,14 @@
 
 
 {% block head %}
+  <link rel="stylesheet" href="static/css/login.css">
   <link rel="stylesheet" href="static/css/sign-up.css">
   <title>Sign Up</title>
 {% endblock %}
 
 
 {% block body %}
-<div id="signup" class="row cover">
+<div class="row cover">
   <div class="page-title-and-line unselectable">
     <h1 class="title">Dubai Little League</h1>
     <h2 class="subtitle">Create an account ></h2>
@@ -17,27 +18,31 @@
   </div>
   <div class="login-sign-up-box">
     <div class="input-group">
-     <input type="email" required class="input-area" />
-     <label>Email</label>
+      <input type="email" required class="input-area" />
+      <label>Email</label>
     </div>
 
     <div class="input-group">
-     <input type="password" required class="input-area" />
-     <label>Password (min 8 characters)</label>
-   </div>
-
-   <a id="red-button" href="#">Sign up</a>
-
-   <div id="line-or-line"><hr><p>or</p><hr></div>
-
-   <a href="#">
-     <div id="google-button">
-       <img src="static/images/google.png">
-       <p class="unselectable">Sign up with Google</p>
+      <input type="password" required class="input-area" />
+      <label>Password (min 8 characters)</label>
     </div>
-  </a>
 
-   <p class="unselectable" id="sign-up-hyperlink">Already have an account? <b><a href="/login">Login</a></b></p>
+    <a id="red-button" href="#">Sign up</a>
+
+    <div id="line-or-line">
+      <hr>
+      <p>or</p>
+      <hr>
+    </div>
+
+    <a href="#">
+      <div id="google-button">
+        <img src="static/images/google.png">
+        <p class="unselectable">Sign up with Google</p>
+      </div>
+    </a>
+
+    <p id="sign-up-hyperlink">Already have an account? <b><a href="/login">Login</a></b></p>
   </div>
 </div>
 {% endblock %}

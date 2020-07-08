@@ -115,6 +115,10 @@ label {
   transition: 0.1s;
 }
 
+/* --------------------------------------------------------------------------- */
+                              /* BUTTONS */
+/* --------------------------------------------------------------------------- */
+
 #red-button {
   width: 350px;
   padding: 18px;
@@ -129,11 +133,6 @@ label {
   letter-spacing: 0.1em;
   color: rgba(35, 31, 32, 1.00);
   margin-left: 10px;
-}
-
-a {
-  text-decoration: none;
-  color: #231f20
 }
 
 #google-button {
@@ -157,6 +156,10 @@ a {
   color: rgba(35, 31, 32, 1.00);
   font-size: 0.8em;
 }
+.login-sign-up-box #line-or-line p {
+  color: rgba(35, 31, 32, 1.00);
+  font-size: 0.8em;
+}
 
 #forgot-password {
   width: 350px;
@@ -166,4 +169,9 @@ a {
 
 #sign-up-hyperlink a {
   text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #231f20
 }
