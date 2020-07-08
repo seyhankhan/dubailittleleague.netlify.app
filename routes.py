@@ -62,7 +62,7 @@ def schedule():
 
 
 @app.route('/log-in')
-def temporary():
+def login():
 	return render_template('log-in.html',
 												 svg=svg)
 

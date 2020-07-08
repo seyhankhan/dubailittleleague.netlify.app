@@ -1,6 +1,9 @@
 /* ###################### JavaScript for scrolling down ##################### */
 function goDownToContent() {
-  scrollDownTime = 800; // in milliseconds
+
+  // time to scroll down in milliseconds
+  scrollDownTime = 800;
+
   if (window.location.pathname === "/") {
     $('html, body').animate({
       scrollTop: $("iframe").offset().top
