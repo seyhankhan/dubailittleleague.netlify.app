@@ -38,7 +38,7 @@
                               /* LOG IN BOX */
 /* --------------------------------------------------------------------------- */
 
-.login-sign-up-box {
+.login-signup-box {
   background-color: white;
   height: 450px;
   width: 450px;
@@ -151,12 +151,12 @@ label {
   height: 25px;
 }
 
-.login-sign-up-box p {
+.login-signup-box p {
   color: rgba(35, 31, 32, 1.00);
   font-size: 0.8em;
 }
 
-#sign-up-hyperlink a {
+#signup-hyperlink a {
   text-decoration: underline;
 }
 

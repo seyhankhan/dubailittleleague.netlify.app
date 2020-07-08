@@ -70,9 +70,9 @@ def login():
 #################################### SIGN UP ###################################
 
 
-@app.route('/sign-up')
+@app.route('/signup')
 def signup():
-	return render_template('sign-up.html',
+	return render_template('signup.html',
 												 svg=svg)
 
 
