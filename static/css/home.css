@@ -93,6 +93,14 @@ iframe {
   top: 30vh;
 }
 
+.icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 #email-info {
   width: 340px;
   height: 60px;
