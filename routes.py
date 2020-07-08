@@ -63,7 +63,7 @@ def schedule():
 
 @app.route('/login')
 def login():
-	return render_template('loginSignup.html',
+	return render_template('login.html',
 												 svg=svg)
 
 
@@ -72,7 +72,7 @@ def login():
 
 @app.route('/sign-up')
 def signup():
-	return render_template('loginSignup.html',
+	return render_template('sign-up.html',
 												 svg=svg)
 
 

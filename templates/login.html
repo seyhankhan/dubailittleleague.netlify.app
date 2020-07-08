@@ -1,4 +1,14 @@
 <!-- <html> -->
+{% extends "masterTemplate.html" %}
+
+
+{% block head %}
+  <link rel="stylesheet" href="static/css/login.css">
+  <title>Login</title>
+{% endblock %}
+
+
+{% block body %}
 <div id="login" class="row cover">
   <div class="page-title-and-line">
     <h1 class="title unselectable">Dubai Little League</h1>
@@ -25,12 +35,13 @@
 
     <a href="#">
       <div id="google-button">
-      <img src="../static/images/google.png">
+      <img src="static/images/google.png">
       <p>Login with Google</p>
       </div>
     </a>
 
-    <p id="sign-up-hyperlink">Don't have an account? <b><a onclick="showSignup();">Sign up</a></b></p>
+    <p id="sign-up-hyperlink">Don't have an account? <b><a href="/sign-up">Sign up</a></b></p>
 
   </div>
 </div>
+{% endblock %}
