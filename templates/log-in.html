@@ -22,17 +22,26 @@
         <p>Log into your parent / guardian account to <br>register your player for the upcoming season</p>
       </div>
       <div class="log-in-sign-up-box">
-        <div class="input-group">
-          <input type="text" name="email" value="" class="email">
-          <label for="email" class="label">Email</label>
+         <div class="input-group">
+          <input type="email" required class="input-area" />
+          <label>Email</label>
         </div>
-        <p><b><a href="#">Forgot password?</a></b></p>
+
+         <div class="input-group">
+          <input type="password" required class="input-area" />
+          <label>Password</label>
+        </div>
+
+        <div id="forgot-password">
+          <p><b><a href="#">Forgot password?</a></b></p>
+        </div>
+
         <a id="red-button" href="#">Log in</a>
-        <div id="google-button">
-          <img src="">
-          <a href="#">Log in with Google</a>
-        </div>
-        <p>Don't have an account? <b><a href="#">Sign up</a></b></p>
+        <a href="#"><div id="google-button">
+          <img src="../static/images/google.png">
+          <p>Log in with Google</p>
+        </div></a>
+        <p id="sign-up-hyperlink">Don't have an account? <b><a href="#">Sign up</a></b></p>
       </div>
     </div>
 
