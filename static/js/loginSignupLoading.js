@@ -1,6 +1,6 @@
-loginCSS_HTML = '<link rel="stylesheet" href="static/css/login.css">';
-signupCSS_HTML = '<link rel="stylesheet" href="static/css/sign-up.css">';
-
+// loginCSS_HTML = '<link rel="stylesheet" href="static/css/login.css">';
+// signupCSS_HTML = '<link rel="stylesheet" href="static/css/sign-up.css">';
+//
 // function showSignup() {
 //   document.getElementById('cssSheets').innerHTML = signupCSS_HTML;
 //   var stylesheet = document.styleSheets[3];
