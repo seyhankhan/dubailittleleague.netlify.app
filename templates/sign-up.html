@@ -1,16 +1,29 @@
 <!-- <html> -->
 
-
 <div id="signup" style="display:none;" class="row cover">
   <div class="page-title-and-line">
-    <h1 class="title unselectable" onclick="showLogin();">Dubai Little League</h1>
+    <h1 class="title unselectable">Dubai Little League</h1>
     <h2 class="subtitle">Create an account ></h2>
     <p>Create a parent / guardian account to continue <br>with registration.</p>
   </div>
-  <div class="login-sign-up-box">
+  <div class="log-in-sign-up-box">
     <div class="input-group">
-      <input type="text" name="email" value="" class="email">
-      <label for="email" class="label">Email</label>
-    </div>
+     <input type="email" required class="input-area" />
+     <label>Email</label>
+   </div>
+
+    <div class="input-group">
+     <input type="password" required class="input-area" />
+     <label>Password (min 8 charc)</label>
+   </div>
+
+   <a id="red-button" href="#">Sign up</a>
+
+   <a href="#"><div id="google-button">
+     <img src="../static/images/google.png">
+     <p>Sign up with Google</p>
+   </div></a>
+
+   <p id="sign-up-hyperlink">Already have an account? <b><a onclick="showLogin();">Login</a></b></p>
   </div>
 </div>
