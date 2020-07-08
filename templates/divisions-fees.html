@@ -1,16 +1,14 @@
 <!-- <html> -->
-{% extends "templater.html" %}
+{% extends "informationPagesTemplate.html" %}
 
 
-{% block head %}
+{% block informationPagesHead %}
   <link rel="stylesheet" href="static/css/divisions-fees.css">
-  <script type="text/javascript" src="static/js/scrollDown.js"></script>
-  <script type="text/javascript" src="static/js/jquery/jquery.min.js"></script>
   <title>Divisions & Fees</title>
 {% endblock %}
 
 
-{% block body %}
+{% block informationPagesBody %}
   <div class="row cover">
     <p id="bigTextOverlay" class="unselectable">Division</p>
     {{ svg['scroll down arrow'] }}
@@ -61,5 +59,4 @@
     <a href="#" id="red-button" class="unselectable">2020/21 Register Player</a>
     <p>Registration closes October 5, 2020</p>
   </div>
-
 {% endblock %}

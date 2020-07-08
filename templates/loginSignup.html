@@ -1,0 +1,18 @@
+<!-- <html> -->
+{% extends "masterTemplate.html" %}
+
+
+{% block head %}
+  <link rel="stylesheet" href="static/css/login.css">
+  <link rel="stylesheet" href="static/css/sign-up.css">
+  <script type="text/javascript" src="static/js/loginSignupLoading.js"></script>
+  <title>Login</title>
+{% endblock %}
+
+
+{% block body %}
+  {% include "login.html" %}
+
+  {% include "sign-up.html" %}
+
+{% endblock %}

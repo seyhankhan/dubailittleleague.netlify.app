@@ -1,0 +1,40 @@
+<!-- <html> -->
+{% extends "masterTemplate.html" %}
+
+
+{% block head %}
+  <script type="text/javascript" src="static/js/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="static/js/scrollDown.js"></script>
+  {% block informationPagesHead %}
+    <!-- ANY EXTRA <HEAD> CODE FOR EACH INFO PAGE GOES HERE -->
+  {% endblock %}
+{% endblock %}
+
+{% block body %}
+  <div id="navbar" class="header unselectable">
+    <div class="col-8 nav">
+      <ul>
+        <li><a {{'class=active' if request.path == '/'               else ''}} href="/">Home</a></li>
+        <li><a {{'class=active' if request.path == '/divisions-fees' else ''}} href="/divisions-fees">Divisions & Fees</a></li>
+        <li><a {{'class=active' if request.path == '/volunteer'      else ''}} href="/volunteer">Volunteer</a></li>
+        <li><a {{'class=active' if request.path == '/schedule'       else ''}} href="/schedule">Schedule</a></li>
+      </ul>
+    </div>
+    <div class="col-4 account">
+      <ul>
+        <li><a id="red-button" {{'class=active' if request.path == '/sign-up'   else ''}} href="/sign-up">Register</a></li>
+        <li><a id="log-in-button" {{'class=active' if request.path == '/login'  else ''}} href="/login">Log In</a></li>
+      </ul>
+    </div>
+  </div>
+
+  {% block informationPagesBody %}
+    <!-- ANY EXTRA <BODY> CODE FOR EACH INFO PAGE GOES HERE -->
+  {% endblock %}
+
+  <div class="creators">
+    <h6>
+      Website by <a target='_blank' href='https://www.linkedin.com/in/seyhankhan/'>Seyhan Van Khan</a> & <a target='_blank' href='https://www.linkedin.com/in/alizehkhan/'>Alizeh Khan</a>
+    </h6>
+  </div>
+{% endblock %}
