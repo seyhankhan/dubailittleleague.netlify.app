@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="static/images/favicon.ico">
     <link rel="stylesheet" href="static/css/main.css">
     <link rel="stylesheet" href="static/css/sign-up.css">
+    <link rel="stylesheet" href="static/css/log-in.css">
 
     <title>Sign Up</title>
   </head>
@@ -23,9 +24,23 @@
       </div>
       <div class="log-in-sign-up-box">
         <div class="input-group">
-          <input type="text" name="email" value="" class="email">
-          <label for="email" class="label">Email</label>
-        </div>
+         <input type="email" required class="input-area" />
+         <label>Email</label>
+       </div>
+
+        <div class="input-group">
+         <input type="password" required class="input-area" />
+         <label>Password (min 8 charc)</label>
+       </div>
+
+       <a id="red-button" href="#">Sign up</a>
+
+       <a href="#"><div id="google-button">
+         <img src="../static/images/google.png">
+         <p>Sign up with Google</p>
+       </div></a>
+
+       <p id="sign-up-hyperlink">Already have an account? <b><a href="#">Login</a></b></p>
       </div>
     </div>
 
