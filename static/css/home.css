@@ -58,7 +58,7 @@ button {
   text-decoration: none;
   background-color: transparent;
   margin: 0 15px;
-  font-family: Avenir;
+  font-family: Avenir, 'Nunito Sans';
 }
 
 .home-buttons {
