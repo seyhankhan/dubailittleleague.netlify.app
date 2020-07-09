@@ -1,6 +1,6 @@
 # dubailittleleague.com
 
-Work in progress
+Visit the progress so far: http://dubailittleleague.herokuapp.com/
 
 ## Authors
 
