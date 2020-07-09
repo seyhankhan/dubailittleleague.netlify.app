@@ -67,6 +67,7 @@ button {
 
 .home-button:hover {
   cursor: pointer;
+  background-color: rgba(225, 225, 225, 0.1);
 }
 
 .home-button:focus {
