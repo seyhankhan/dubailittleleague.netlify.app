@@ -83,7 +83,9 @@ def signup():
 def error_page():
 	return """
 		<script type="text/javascript" src="static/js/compRedirect.js"></script>
-		Please view this site on desktop or laptop
+		<h1>
+			Please view this site on desktop or laptop
+		</h1>
 	"""
 
 
