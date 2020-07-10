@@ -130,13 +130,17 @@ iframe {
   justify-content: space-around;
 }
 
+#email-svg:hover {
+  cursor: pointer;
+}
+
 #email-popup {
   width: 340px;
   height: 60px;
   background-color: rgba(35, 31, 32, 0.8);
   color: white;
   border-radius: 4px;
-  display: flex;
+  display: none; /* js makes it 'flex' when shown */
   flex-direction: row;
   position: absolute;
   align-items: center;
@@ -152,7 +156,7 @@ iframe {
   background-color: rgba(35, 31, 32, 0.8);
   color: white;
   border-radius: 4px;
-  display: flex;
+  display: none; /* js makes it 'flex' when shown */
   flex-direction: row;
   position: absolute;
   align-items: center;
