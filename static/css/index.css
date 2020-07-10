@@ -130,10 +130,6 @@ iframe {
   justify-content: space-around;
 }
 
-#copy-svg {
-  cursor: pointer;
-}
-
 #email-popup {
   width: 340px;
   height: 60px;
