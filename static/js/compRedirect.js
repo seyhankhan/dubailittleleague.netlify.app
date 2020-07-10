@@ -8,10 +8,10 @@ const toMatch = [
     /Windows Phone/i
 ];
 
-isMobile = toMatch.some((toMatchItem) => {
+isLaptop = !(toMatch.some((toMatchItem) => {
   return navigator.userAgent.match(toMatchItem);
-});
+}));
 
-if (isMobile) {
-  window.open('/error', '_self');
+if (isLaptop) {
+  window.open('/', '_self');
 }

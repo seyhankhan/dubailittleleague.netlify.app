@@ -18,7 +18,7 @@ goDownToContent = () => $("html, body").animate({
 
 
 if (window.location.pathname === "/") {
-  var emailSVG, emailPopup, copySVG, emailAddressText, phoneSVG, phonePopup
+  var emailSVG, emailPopup, copySVG, emailAddressText, phoneSVG, phonePopup;
 
   emailSVG =          document.getElementById("email-svg");
   emailPopup =        document.getElementById("email-popup");
