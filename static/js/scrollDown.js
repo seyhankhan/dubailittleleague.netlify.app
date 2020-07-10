@@ -15,6 +15,35 @@ function goDownToContent() {
   }
 }
 
+
+
+const emailSVG = document.getElementById('email-svg');
+const emailPopup = document.getElementById('email-popup');
+
+emailSVG.addEventListener('mouseenter', e => {
+  emailPopup.style.display = '';
+});
+emailPopup.addEventListener('mouseleave', e => {
+  emailPopup.style.display = 'none';
+});
+
+const phoneSVG = document.getElementById('phone-svg');
+const phonePopup = document.getElementById('phone-popup');
+
+phoneSVG.addEventListener('mouseenter', e => {
+  phonePopup.style.display = '';
+});
+phonePopup.addEventListener('mouseleave', e => {
+  phonePopup.style.display = 'none';
+});
+
+
+
+
+
+
+
+
 // window.onscroll = function() {
 //   maximumTransparency = 0.7;
 //   heightMaxPercentage = 0.3527;
