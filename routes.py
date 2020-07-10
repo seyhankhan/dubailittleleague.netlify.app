@@ -8,6 +8,7 @@
 
 from flask import Flask, render_template, session, request, Markup
 from data import *
+
 svg = {key: Markup(value) for key, value in svg.items()}
 
 
