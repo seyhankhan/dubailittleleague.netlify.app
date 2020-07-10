@@ -82,12 +82,7 @@ def signup():
 
 @app.route('/error')
 def error_page():
-	return """
-		<script type="text/javascript" src="static/js/compRedirect.js"></script>
-		<h1>
-			Please view this site on desktop or laptop
-		</h1>
-	"""
+	return render_template('error-mobile.html')
 
 
 ################################# OTHER ROUTES #################################
@@ -98,7 +93,7 @@ def not_found(e):
 	print()
 	print(e)
 	print()
-	return render_template('error404.html',
+	return render_template('error-404.html',
 												 request_path=request.path)
 
 

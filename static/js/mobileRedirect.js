@@ -7,8 +7,13 @@ const toMatch = [
     /BlackBerry/i,
     /Windows Phone/i
 ];
-if (toMatch.some((toMatchItem) => {
-      return navigator.userAgent.match(toMatchItem);
-    })) {
-  window.location.href = 'error';
+
+isMobile = toMatch.some((toMatchItem) => {navigator.userAgent.match(toMatchItem)});
+onErrorPage = window.location.pathname == '/error';
+
+if (onErrorPage && !isMobile) {
+  window.open('/','_self');
+}
+if (isMobile && !onErrorPage) {
+  window.open('/','_self');
 }

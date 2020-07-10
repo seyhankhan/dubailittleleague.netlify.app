@@ -3,13 +3,12 @@
 
 
 {% block head %}
-  <script type="text/javascript" src="static/js/mobileRedirect.js"></script>
   <title>Unknown URL</title>
 {% endblock %}
 
 
 {% block body %}
-  <img src="static/images/error-404-cat.jpg" align="left">
+  <img src="static/images/error-404.jpg" align="left">
   <style type="text/css">
     #error404title {
       font-family: 'Nunito Sans';
@@ -22,6 +21,6 @@
   </style>
 
   <div id="error404title">
-    dubailittleleague.com/<strong>{{ request_path[1:] }}</strong> doesnt exist
+    dubailittleleague.com/<strong>{{ request_path[1:] }}</strong>&nbsp; doesnt exist
   </div>
 {% endblock %}
