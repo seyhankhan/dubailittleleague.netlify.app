@@ -12,8 +12,9 @@ isMobile = toMatch.some((toMatchItem) => {navigator.userAgent.match(toMatchItem)
 onErrorPage = window.location.pathname == '/error';
 
 if (onErrorPage && !isMobile) {
-  window.open('/','_self');
+  redirectTo = '/'
 }
 if (isMobile && !onErrorPage) {
-  window.open('/error','_self');
+  redirectTo = '/error'
 }
+window.open(redirectTo,'_self');
