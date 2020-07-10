@@ -15,5 +15,5 @@ if (onErrorPage && !isMobile) {
   window.open('/','_self');
 }
 if (isMobile && !onErrorPage) {
-  window.open('/','_self');
+  window.open('/error','_self');
 }
