@@ -9,9 +9,19 @@
 
 
 {% block body %}
-  <img src="https://image.freepik.com/free-vector/404-error-web-template-with-mad-cat_23-2147763345.jpg" align="left">
+  <img src="static/images/error-404-cat.jpg" align="left">
+  <style type="text/css">
+    #error404title {
+      font-family: 'Nunito Sans';
+      font-size: 2em;
+      text-transform: lowercase;
+    }
+    img {
+      margin-right: 20px;
+    }
+  </style>
 
-  <h1 style="font-family:Avenir,'Nunito Sans';font-weight:lighter;color:black;text-transform:lowercase;">
-    <strong>{{ request_path }}</strong> doesnt exist
-  </h1>
+  <div id="error404title">
+    dubailittleleague.com/<strong>{{ request_path[1:] }}</strong> doesnt exist
+  </div>
 {% endblock %}
