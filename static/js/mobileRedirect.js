@@ -9,12 +9,13 @@ const toMatch = [
 ];
 
 isMobile = toMatch.some((toMatchItem) => {navigator.userAgent.match(toMatchItem)});
-onErrorPage = window.location.pathname == '/error';
+onErrorPage = window.location.pathname === '/error';
 
-if (onErrorPage && !isMobile) {
-  redirectTo = '/'
-}
 if (isMobile && !onErrorPage) {
   redirectTo = '/error'
 }
-window.open(redirectTo,'_self');
+if (onErrorPage && !isMobile) {
+  redirectTo = '/'
+}
+
+window.open(redirectTo, '_self');
