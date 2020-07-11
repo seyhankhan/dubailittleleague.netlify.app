@@ -13,3 +13,17 @@
   text-align: center;
   width: 350px;
 }
+
+.input-area {
+  width: 75px;
+  text-align: center;
+}
+
+#back-to-signup-hyperlink {
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+#back-to-signup-hyperlink a {
+  text-decoration: underline;
+}

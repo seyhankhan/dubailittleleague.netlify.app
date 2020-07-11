@@ -64,6 +64,14 @@ def verify_email():
 												 svg=svg)
 
 
+################################# VERIFY EMAIL #################################
+
+
+@app.route('/forgot-password')
+def forgot_password():
+	return render_template('forgot-password.html',
+												 svg=svg)
+
 
 
 ################################################################################
