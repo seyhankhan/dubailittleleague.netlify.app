@@ -162,7 +162,7 @@ def schedule():
 
 @app.route('/error')
 def error_page():
-	return render_template('error/error-mobile.html')
+	return render_template('errors/error-mobile.html')
 
 
 ################################# OTHER ROUTES #################################
@@ -173,7 +173,7 @@ def not_found(e):
 	print()
 	print(e)
 	print()
-	return render_template('error/error-404.html',
+	return render_template('errors/error-404.html',
 												 request_path=request.path)
 
 
