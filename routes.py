@@ -94,6 +94,14 @@ def signup():
 												 svg=svg)
 
 
+########################## PLAYER REGISTRATION #################################
+
+
+@app.route('/player-registration1')
+def player_registration1():
+	return render_template('player-registration1.html',
+												 svg=svg)
+
 ################################ MOBILE REDIRECT ###############################
 
 

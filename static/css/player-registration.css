@@ -1,0 +1,137 @@
+.form-title {
+  background-color: rgba(35, 31, 32, 1.00);
+  letter-spacing: 0.2em;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.progress-bar {
+  box-shadow: rgba(35, 31, 32, 0.10) 0 2px 2px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 15px 35%;
+}
+
+.step {
+  background-color: rgba(221, 219, 203, 1.00);
+  border-radius: 20px;
+  width: 25px;
+  height: 25px;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.active {
+  background-color: rgba(35, 31, 32, 1.00);
+  color: white;
+}
+
+.main-info {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+/* --------------------------------------------------------------------------- */
+                              /* INPUT TEXT FIELDS */
+/* --------------------------------------------------------------------------- */
+
+.input-group {
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.input-area {
+  border: 2px solid #BCBBBC;
+  padding: 14px 13px;
+  font-size: 1em;
+  font-family: Avenir, 'Nunito Sans';
+  outline: none;
+  border-radius: 4px;
+  color: #231F20;
+  background-color: transparent;
+}
+
+.input-area:focus {
+  border: 2px solid #727070;
+}
+
+.input-area:focus + label {
+  top: -8px;
+  padding: 0 3px;
+  font-size: 0.8em;
+  color: #727070;
+}
+
+/* .input-area:valid {
+  border: 2px solid #306e49;
+}
+
+.input-area:valid + label {
+  top: -8px;
+  padding: 0 3px;
+  font-size: 0.8em;
+  color: #306e49;
+}
+
+.input-area:invalid {
+  border: 2px solid #ab3428;
+}
+
+.input-area:invalid + label {
+  top: -8px;
+  padding: 0 3px;
+  font-size: 0.8em;
+  color: #ab3428;
+} */
+
+label {
+  color: #7b7979;
+  position: absolute;
+  top: 16px;
+  left: 13px;
+  background-color: white;
+  transition: 0.1s;
+}
+
+.long {
+  width: 380px;
+}
+
+.short {
+  width: 180px;
+  margin-right: 20px;
+}
+
+#red-button {
+  display: flex;
+  width: 130px;
+  align-items: center;
+  padding: 10px 10px;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+/* --------------------------------------------------------------------------- */
+                                  /* STEP 1 */
+/* --------------------------------------------------------------------------- */
+
+h4 {
+  font-size: 1.3em;
+}
+
+.name-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}

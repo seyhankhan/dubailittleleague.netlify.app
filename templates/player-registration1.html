@@ -1,0 +1,63 @@
+<!-- <html> -->
+{% extends "masterTemplate.html" %}
+
+
+{% block head %}
+  <link rel="stylesheet" href="static/css/player-registration.css">
+  <title>Player Registration</title>
+{% endblock %}
+
+
+{% block body %}
+  <div class="form-title">
+    <p>
+      <b>PLAYER REGISTRATION</b> SEASON 2020/21
+    </p>
+  </div>
+  <div class="progress-bar">
+    <div class="active step">
+      1
+    </div>
+    <div class="step">
+      2
+    </div>
+    <div class="step">
+      3
+    </div>
+    <div class="step">
+      4
+    </div>
+    <div class="step">
+      5
+    </div>
+    <div class="step">
+      6
+    </div>
+  </div>
+
+  <div class="main-info">
+    <h4>Player's name</h4>
+
+    <div class="name-group">
+      <div class="input-group">
+        <input class="short input-area" required />
+        <label>First name</label>
+      </div>
+
+      <div class="input-group">
+        <input class="short input-area" required />
+        <label>Last name</label>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <input class="long input-area"/>
+      <label>Player's email (optional)</label>
+    </div>
+
+    <a class="unselectable" id="red-button">CONTINUE {{ svg["rightarrow"] }}</a>
+
+    </div>
+
+  </div>
+{% endblock %}
