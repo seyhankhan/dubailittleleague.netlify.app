@@ -37,14 +37,6 @@ def login():
 												 svg=svg)
 
 
-################################ FORGOT PASSWORD ###############################
-
-
-@app.route('/forgot-password')
-def forgot_password():
-	return render_template('forgot-password.html',
-												 svg=svg)
-
 
 #################################### SIGNUP ####################################
 
@@ -164,16 +156,6 @@ def schedule():
 #################################### ERRORS ####################################
 ################################################################################
 
-
-
-
-########################## PLAYER REGISTRATION #################################
-
-
-@app.route('/player-registration1')
-def player_registration1():
-	return render_template('player-registration1.html',
-												 svg=svg)
 
 ################################ MOBILE REDIRECT ###############################
 
