@@ -10,3 +10,7 @@
   color: rgba(35, 31, 32, 1.00);
   font-size: 0.8em;
 }
+
+.input-area {
+  width: 350px;
+}
