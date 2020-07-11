@@ -81,7 +81,7 @@ def forgot_password():
 
 @app.route('/verify-email')
 def verify_email():
-	return render_template('verify_email.html',
+	return render_template('verify-email.html',
 												 svg=svg)
 
 
