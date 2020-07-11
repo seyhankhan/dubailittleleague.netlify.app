@@ -76,6 +76,14 @@ def forgot_password():
 	return render_template('forgot-password.html',
 												 svg=svg)
 
+############################## VERIFY EMAIL ####################################
+
+
+@app.route('/verify-email')
+def verify_email():
+	return render_template('verify_email.html',
+												 svg=svg)
+
 
 #################################### SIGNUP ####################################
 

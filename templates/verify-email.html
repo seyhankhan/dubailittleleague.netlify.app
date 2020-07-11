@@ -1,0 +1,54 @@
+<!-- <html> -->
+{% extends "masterTemplate.html" %}
+
+
+{% block head %}
+<link rel="stylesheet" href="static/css/login.css">
+<link rel="stylesheet" href="static/css/verify-email.css">
+<title>Sign Up</title>
+{% endblock %}
+
+
+{% block body %}
+<div class="row cover">
+  <div class="page-title-and-line">
+    <h1 class="title">Dubai Little League</h1>
+    <h2 class="subtitle unselectable">Verify email ></h2>
+  </div>
+  <div class="login-signup-box">
+    <p>Input the code we sent to<br><b>example@outlook.com</b></p>
+    <div class="code-input-boxes">
+      <div class="input-group">
+        <input type="number" class="input-area" required />
+      </div>
+
+      <div class="input-group">
+        <input type="email" class="input-area" required />
+      </div>
+
+      <div class="input-group">
+        <input type="email" class="input-area" required />
+      </div>
+
+      <div class="input-group">
+        <input type="email" class="input-area" required />
+      </div>
+    </div>
+
+    <a class="unselectable" id="red-button">Sign up</a>
+
+    <div class="unselectable" id="line-or-line">
+      <hr>
+      <p>or</p>
+      <hr>
+    </div>
+
+    <p class="unselectable" id="signup-hyperlink">
+      Not your email?
+      <b>
+        <a href="/login">Go back</a>
+      </b>
+    </p>
+  </div>
+</div>
+{% endblock %}
