@@ -68,6 +68,15 @@ def login():
 												 svg=svg)
 
 
+################################# FORGOT PASSWORD ##############################
+
+
+@app.route('/forgot-password')
+def forgot_password():
+	return render_template('forgot-password.html',
+												 svg=svg)
+
+
 #################################### SIGNUP ####################################
 
 
