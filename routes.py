@@ -33,7 +33,7 @@ app.secret_key = "stubblyainslieprocrastination"
 
 @app.route('/login')
 def login():
-	return render_template('login.html',
+	return render_template('registration/login.html',
 												 svg=svg)
 
 
@@ -43,7 +43,7 @@ def login():
 
 @app.route('/signup')
 def signup():
-	return render_template('signup.html',
+	return render_template('registration/signup.html',
 												 svg=svg)
 
 
@@ -52,7 +52,7 @@ def signup():
 
 @app.route('/verify-email')
 def verify_email():
-	return render_template('verify-email.html',
+	return render_template('registration/verify-email.html',
 												 svg=svg)
 
 
@@ -61,7 +61,7 @@ def verify_email():
 
 @app.route('/forgot-password')
 def forgot_password():
-	return render_template('forgot-password.html',
+	return render_template('registration/forgot-password.html',
 												 svg=svg)
 
 
@@ -70,37 +70,37 @@ def forgot_password():
 
 @app.route('/player-registration1')
 def player_registration1():
-	return render_template('player-registration1.html',
+	return render_template('registration/player-registration1.html',
 												 svg=svg)
 
 @app.route('/player-registration2')
 def player_registration2():
-	return render_template('player-registration2.html',
+	return render_template('registration/player-registration2.html',
 												 svg=svg)
 
 @app.route('/player-registration3')
 def player_registration3():
-	return render_template('player-registration3.html',
+	return render_template('registration/player-registration3.html',
 												 svg=svg)
 
 @app.route('/player-registration4')
 def player_registration4():
-	return render_template('player-registration4.html',
+	return render_template('registration/player-registration4.html',
 												 svg=svg)
 
 @app.route('/player-registration5')
 def player_registration5():
-	return render_template('player-registration5.html',
+	return render_template('registration/player-registration5.html',
 												 svg=svg)
 
 @app.route('/player-registration6')
 def player_registration6():
-	return render_template('player-registration6.html',
+	return render_template('registration/player-registration6.html',
 												 svg=svg)
 
 @app.route('/player-registration-confirmation')
 def player_registration_confirmation():
-	return render_template('player-registration-confirmation.html',
+	return render_template('registration/player-registration-confirmation.html',
 												 svg=svg)
 
 ################################################################################
@@ -115,7 +115,7 @@ def player_registration_confirmation():
 
 @app.route('/')
 def index():
-	return render_template('index.html',
+	return render_template('information-pages/index.html',
 												 svg=svg,
 						             session_username=session['username'] if 'username' in session else None)
 
@@ -125,7 +125,7 @@ def index():
 
 @app.route('/divisions-fees')
 def divisions_fees():
-	return render_template('divisions-fees.html',
+	return render_template('information-pages/divisions-fees.html',
 												 divisionTableHeaders=divisionTableHeaders,
 												 divisionTable=divisionTable,
 												 challengerDescription=challengerDescription,
@@ -137,7 +137,7 @@ def divisions_fees():
 
 @app.route('/volunteer')
 def volunteer():
-	return render_template('volunteer.html',
+	return render_template('information-pages/volunteer.html',
 												 svg=svg)
 
 
@@ -146,7 +146,7 @@ def volunteer():
 
 @app.route('/schedule')
 def schedule():
-	return render_template('schedule.html',
+	return render_template('information-pages/schedule.html',
 												 svg=svg)
 
 
@@ -162,7 +162,7 @@ def schedule():
 
 @app.route('/error')
 def error_page():
-	return render_template('error-mobile.html')
+	return render_template('error/error-mobile.html')
 
 
 ################################# OTHER ROUTES #################################
@@ -173,7 +173,7 @@ def not_found(e):
 	print()
 	print(e)
 	print()
-	return render_template('error-404.html',
+	return render_template('error/error-404.html',
 												 request_path=request.path)
 
 
