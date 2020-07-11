@@ -64,7 +64,7 @@ def verify_email():
 												 svg=svg)
 
 
-################################# VERIFY EMAIL #################################
+################################ FORGOT PASSWORD ###############################
 
 
 @app.route('/forgot-password')
@@ -73,6 +73,43 @@ def forgot_password():
 												 svg=svg)
 
 
+############################## PLAYER REGISTRATION #############################
+
+
+@app.route('/player-registration1')
+def player_registration1():
+	return render_template('player-registration1.html',
+												 svg=svg)
+
+@app.route('/player-registration2')
+def player_registration2():
+	return render_template('player-registration2.html',
+												 svg=svg)
+
+@app.route('/player-registration3')
+def player_registration3():
+	return render_template('player-registration3.html',
+												 svg=svg)
+
+@app.route('/player-registration4')
+def player_registration4():
+	return render_template('player-registration4.html',
+												 svg=svg)
+
+@app.route('/player-registration5')
+def player_registration5():
+	return render_template('player-registration5.html',
+												 svg=svg)
+
+@app.route('/player-registration6')
+def player_registration6():
+	return render_template('player-registration6.html',
+												 svg=svg)
+
+@app.route('/player-registration-confirmation')
+def player_registration_confirmation():
+	return render_template('player-registration-confirmation.html',
+												 svg=svg)
 
 ################################################################################
 ############################### INFORMATION PAGES ##############################
