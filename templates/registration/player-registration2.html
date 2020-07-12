@@ -1,0 +1,97 @@
+<!-- <html> -->
+{% extends "masterTemplate.html" %}
+
+
+{% block head %}
+  <link rel="stylesheet" href="static/css/player-registration.css">
+  <title>Player Registration</title>
+{% endblock %}
+
+
+{% block body %}
+  <div class="form-title">
+    <div id="logo">
+      <p id="dubai">DUBAI</p>
+      <p id="littleleague">LITTLE LEAGUE</p>
+    </div>
+    <p>
+      <b>Player Registration</b> Season 2020/21
+    </p>
+  </div>
+  <div class="progress-bar">
+    <div class="step">
+      1
+    </div>
+    <div class="active step">
+      2
+    </div>
+    <div class="step">
+      3
+    </div>
+    <div class="step">
+      4
+    </div>
+    <div class="step">
+      5
+    </div>
+    <div class="step">
+      6
+    </div>
+  </div>
+
+  <div class="main-info">
+    <a href="/player-registration1">< Back</a>
+    <h4>Find your player's division</h4>
+
+    <div class="gender">
+      <p>Player's gender</p>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+    </div>
+
+    <div class="">
+      <p>Player's date of birth</p>
+
+      <div class="name-group">
+
+        <div class="input-group">
+          <input class="day input-area" required />
+          <label>Day</label>
+        </div>
+
+        <div class="input-group">
+          <input class="month input-area" required />
+          <label>Month</label>
+        </div>
+
+        <div class="input-group">
+          <input class="year input-area" required/>
+          <label>Year</label>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="help-group">
+      <p>Divisions available are based on your player's gender and age</p>
+      {{ svg['help'] }}
+      <p class="help-box">
+        The division options available to select are based on the player's gender
+        and age on May 1, 2021 (or Jan 1, 2021 if Softball or Tee ball).<br><br>
+        All players will go to their age appropriate assessment. Any allocations
+        to a division outside these age groups are on an exception basis only and
+        will be based on player safety, not skill level. This will be decided by
+        the player agents of the impacted divisions and the league administration.
+      </p>
+    </div>
+
+    <a href="/divisions-fees" target="_blank">Show all divisions, age groups, fees</a>
+
+    <a class="unselectable" id="red-button">CONTINUE {{ svg["rightarrow"] }}</a>
+
+    </div>
+
+  </div>
+{% endblock %}
