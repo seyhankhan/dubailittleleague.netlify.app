@@ -6,9 +6,9 @@
 ################################ IMPORT MODULES ################################
 
 
-from flask import Flask, render_template, session, request, Markup
-from data import *
+from flask import Flask, render_template, request, session, Markup
 
+from data import *
 svg = {key: Markup(value) for key, value in svg.items()}
 
 
@@ -26,6 +26,17 @@ app.secret_key = "stubblyainslieprocrastination"
 ################################################################################
 
 
+def encrypt(value):
+	return value
+
+
+#################################### SIGNUP ####################################
+
+
+@app.route('/signup', methods=['GET','POST'])
+def signup():
+	return render_template('registration/signup.html',
+												 svg=svg)
 
 
 ##################################### LOGIN ####################################
@@ -34,16 +45,6 @@ app.secret_key = "stubblyainslieprocrastination"
 @app.route('/login')
 def login():
 	return render_template('registration/login.html',
-												 svg=svg)
-
-
-
-#################################### SIGNUP ####################################
-
-
-@app.route('/signup')
-def signup():
-	return render_template('registration/signup.html',
 												 svg=svg)
 
 
@@ -155,6 +156,8 @@ def schedule():
 ################################################################################
 #################################### ERRORS ####################################
 ################################################################################
+
+
 
 
 ################################ MOBILE REDIRECT ###############################

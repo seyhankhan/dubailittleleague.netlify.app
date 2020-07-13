@@ -3,7 +3,7 @@
 
 
 {% block head %}
-<link rel="stylesheet" href="static/css/login.css">
+<!-- <link rel="stylesheet" href="static/css/login.css"> -->
 <link rel="stylesheet" href="static/css/signup.css">
 <title>Sign Up</title>
 {% endblock %}
@@ -16,17 +16,18 @@
     <h2 class="subtitle unselectable">Create an account ></h2>
     <p>Create a parent / guardian account to continue <br>with registration.</p>
   </div>
-  <div class="login-signup-box">
+  <form class="login-signup-box" method="POST" action="/signup">
     <div class="input-group">
-      <input type="email" class="input-area" required />
+      <input type="email" class="input-area" name="email" required />
       <label>Email</label>
     </div>
 
     <div class="input-group">
-      <input type="password" class="input-area" required />
+      <input type="password" class="input-area" name="password" minlength='8' required />
       <label>Password (min 8 characters)</label>
     </div>
 
+    <!-- submit -->
     <a href="/verify-email" class="unselectable" id="red-button">Sign up</a>
 
     <div class="unselectable" id="line-or-line">
@@ -48,6 +49,7 @@
         <a href="/login">Login</a>
       </b>
     </p>
+
   </div>
 </div>
 {% endblock %}
