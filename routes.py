@@ -26,44 +26,6 @@ app.secret_key = "stubblyainslieprocrastination"
 ################################################################################
 
 
-def encrypt(value):
-	return value
-
-
-#################################### SIGNUP ####################################
-
-
-@app.route('/signup', methods=['GET','POST'])
-def signup():
-	return render_template('registration/signup.html',
-												 svg=svg)
-
-
-##################################### LOGIN ####################################
-
-
-@app.route('/login')
-def login():
-	return render_template('registration/login.html',
-												 svg=svg)
-
-
-################################# VERIFY EMAIL #################################
-
-
-@app.route('/verify-email')
-def verify_email():
-	return render_template('registration/verify-email.html',
-												 svg=svg)
-
-
-################################ FORGOT PASSWORD ###############################
-
-
-@app.route('/forgot-password')
-def forgot_password():
-	return render_template('registration/forgot-password.html',
-												 svg=svg)
 
 
 ############################## PLAYER REGISTRATION #############################
@@ -99,10 +61,8 @@ def player_registration6():
 	return render_template('registration/player-registration6.html',
 												 svg=svg)
 
-@app.route('/player-registration-confirmation')
-def player_registration_confirmation():
-	return render_template('registration/player-registration-confirmation.html',
-												 svg=svg)
+
+
 
 ################################################################################
 ############################### INFORMATION PAGES ##############################
