@@ -82,18 +82,7 @@
   color: #727070;
 }
 
-/* .input-area:valid {
-  border: 2px solid #306e49;
-}
-
-.input-area:valid + label {
-  top: -8px;
-  padding: 0 3px;
-  font-size: 0.8em;
-  color: #306e49;
-}
-
-.input-area:invalid {
+/* .input-area:invalid {
   border: 2px solid #ab3428;
 }
 
@@ -102,7 +91,7 @@
   padding: 0 3px;
   font-size: 0.8em;
   color: #ab3428;
-} */
+}  */
 
 label {
   color: #7b7979;
