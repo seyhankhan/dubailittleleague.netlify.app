@@ -31,9 +31,9 @@ app.secret_key = "stubblyainslieprocrastination"
 ############################## PLAYER REGISTRATION #############################
 
 
-@app.route('/player-registration1')
-def player_registration1():
-	return render_template('registration/player-registration1.html',
+@app.route('/pr1')
+def pr1():
+	return render_template('/pr1.html',
 												 svg=svg)
 
 @app.route('/player-registration2')

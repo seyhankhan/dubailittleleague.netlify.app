@@ -1,0 +1,56 @@
+<!-- <html> -->
+{% extends "masterTemplate.html" %}
+
+
+{% block head %}
+  <link rel="stylesheet" href="static/css/pr1.css">
+  <title>Player Registration</title>
+{% endblock %}
+{% block body %}
+<div class="form-title row col-12">
+  <div id="logo">
+    <p id="dubai">DUBAI</p>
+    <p id="littleleague">LITTLE LEAGUE</p>
+  </div>
+
+<div class="row">
+
+  <div class="col-6">
+    <div id="form-box">
+      <div class="stages">
+        <div class="complete stage-one">
+          1
+        </div>
+        <p>Add player's details</p>
+        <div class="stage-two">
+          2
+        </div>
+        <div class="stage-three">
+          3
+        </div>
+      </div>
+      <div class="progress-bar">
+        <div class="completed-progress-bar"></div>
+      </div>
+
+      <h4>Player's gender</h4>
+      <div class="question-box">
+        <label class="container">Male
+          <input type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <label class="container">Female
+          <input type="radio" name="radio">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+
+      <div class="continue-box">
+        <a href="#" id="continue-button" class="unselectable">Continue {{ svg["rightarrow"] }}</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}
