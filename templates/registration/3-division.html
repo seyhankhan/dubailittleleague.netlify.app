@@ -9,6 +9,67 @@
 
 {% block form %}
 
-  <!-- everything that is inside that big white square form box -->
+<div class="stages">
+  <div class="complete stage-one">
+    1
+  </div>
+  <p>Add player's details</p>
+  <div class="stage-two">
+    2
+  </div>
+  <div class="stage-three">
+    3
+  </div>
+</div>
+<div class="progress-bar">
+  <div class="completed-progress-bar"></div>
+</div>
+
+<div id="back"><a href="/1">{{ svg["leftarrow"] }}</a></div>
+
+<h4>Choose an eligible division for your player</h4>
+
+<div class="question-box">
+  <label class="container">Baseball Teeball (ages 4 - 6) 1900 AED
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Baseball Peewees (ages 7 - 8) 2200 AED
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Baseball Minors (ages 9 - 10) 2200 AED
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Baseball Majors (ages 11 - 12) 2200 AED
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Baseball Juniors (ages 12 - 14) 2200 AED
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Baseball Seniors (ages 14 - 18) 2200 AED
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Softball Juniors (ages 9 - 13) 2200 AED
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Softball Seniors (ages 14 - 18) 2200 AED
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Baseball Challengers (ages 5+) 2200 AED
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+</div>
+
+<div class="continue-box">
+  <a href="/4" id="continue-button">Continue {{ svg["rightarrow"] }}</a>
+</div>
 
 {% endblock %}
