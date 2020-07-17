@@ -107,7 +107,7 @@ body {
  .completed-progress-bar {
    position: absolute;
    background-color: rgba(35, 31, 32, 1);
-   width: 0%;
+   width: 5%;
    height: 5px;
    border-radius: 2.5px;
  }
@@ -223,4 +223,80 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+/* --------------------------------------------------------------------------- */
+                              /* INPUT TEXT FIELDS */
+/* --------------------------------------------------------------------------- */
+
+.input-group {
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.input-area {
+  border: 2px solid #BCBBBC;
+  padding: 14px 13px;
+  font-size: 1em;
+  font-family: Avenir, 'Nunito Sans';
+  outline: none;
+  border-radius: 4px;
+  color: #231F20;
+  background-color: transparent;
+}
+
+.input-area:focus {
+  border: 2px solid #727070;
+}
+
+.input-area:focus + label {
+  top: -8px;
+  padding: 0 3px;
+  font-size: 0.8em;
+  color: #727070;
+}
+
+/* .input-area:valid {
+  border: 2px solid #306e49;
+}
+
+.input-area:valid + label {
+  top: -8px;
+  padding: 0 3px;
+  font-size: 0.8em;
+  color: #306e49;
+}
+
+.input-area:invalid {
+  border: 2px solid #ab3428;
+}
+
+.input-area:invalid + label {
+  top: -8px;
+  padding: 0 3px;
+  font-size: 0.8em;
+  color: #ab3428;
+} */
+
+label {
+  color: #7b7979;
+  position: absolute;
+  top: 16px;
+  left: 13px;
+  background-color: white;
+  transition: 0.1s;
+}
+
+.day {
+  width: 100px;
+}
+
+.month {
+  width: 100px;
+}
+
+.year {
+  width: 150px;
 }

@@ -34,6 +34,11 @@ def player_registration1():
 	return render_template('player-reg1.html',
 												 svg=svg)
 
+												 
+@app.route('/player-registration2')
+def player_registration2():
+	return render_template('player-reg2.html',
+												 svg=svg)
 
 
 
