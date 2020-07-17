@@ -9,6 +9,47 @@
 
 {% block form %}
 
-  <!-- everything that is inside that big white square form box -->
+<div class="stages">
+  <div class="complete stage-one">
+    1
+  </div>
+  <p>Add player's details</p>
+  <div class="stage-two">
+    2
+  </div>
+  <div class="stage-three">
+    3
+  </div>
+</div>
+<div class="progress-bar">
+  <div class="completed-progress-bar"></div>
+</div>
+
+<div id="back"><a href="/1">{{ svg["leftarrow"] }}</a></div>
+
+<h4>Player's details</h4>
+
+<div class="question-box">
+
+  <div class="input-group">
+    <input class="first input-area" required />
+    <label>First name</label>
+  </div>
+
+  <div class="input-group">
+    <input class="last input-area" required />
+    <label>Last name</label>
+  </div>
+
+</div>
+
+<div class="input-group">
+  <input class="email input-area" required/>
+  <label>Email</label>
+</div>
+
+<div class="continue-box">
+  <a href="/5" id="continue-button">Continue {{ svg["rightarrow"] }}</a>
+</div>
 
 {% endblock %}

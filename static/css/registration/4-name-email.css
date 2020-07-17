@@ -1,8 +1,7 @@
 @import "reg.css";
 
-
 .completed-progress-bar {
-  width: 12%;
+  width: 40%;
 }
 
 .question-box {
