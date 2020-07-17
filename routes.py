@@ -33,12 +33,12 @@ app.secret_key = "stubblyainslieprocrastination"
 
 @app.route('/pr1')
 def pr1():
-	return render_template('/pr1.html',
+	return render_template('pr1.html',
 												 svg=svg)
 
-@app.route('/player-registration2')
-def player_registration2():
-	return render_template('registration/player-registration2.html',
+@app.route('/pr2')
+def pr2():
+	return render_template('pr2.html',
 												 svg=svg)
 
 @app.route('/player-registration3')
