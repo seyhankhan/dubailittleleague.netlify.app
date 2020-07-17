@@ -1,0 +1,33 @@
+<!-- <html> -->
+{% extends "masterTemplate.html" %}
+
+
+{% block head %}
+  <title>Player Registration</title>
+
+  {% block extraHead %}
+    <!-- EXTRA HEAD GOES HERE -->
+  {% endblock %}
+
+{% endblock %}
+
+
+{% block body %}
+<div class="form-title row col-12 unselectable">
+  <div id="logo">
+    <p id="dubai">DUBAI</p>
+    <p id="littleleague">LITTLE LEAGUE</p>
+  </div>
+
+  <div class="row">
+    <div class="col-6">
+      <form id="form-box">
+
+        {% block form %}
+          <!-- EACH FORM GOES HERE -->
+        {% endblock %}
+
+      </form>
+    </div>
+  </div>
+{% endblock %}

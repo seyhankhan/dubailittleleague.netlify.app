@@ -29,18 +29,58 @@ app.secret_key = "stubblyainslieprocrastination"
 ############################## PLAYER REGISTRATION #############################
 
 
-@app.route('/player-registration1')
-def player_registration1():
-	return render_template('player-reg1.html',
-												 svg=svg)
-
-												 
-@app.route('/player-registration2')
-def player_registration2():
-	return render_template('player-reg2.html',
+@app.route('/1')
+def reg1():
+	return render_template('registration/1-gender.html',
 												 svg=svg)
 
 
+@app.route('/2')
+def reg2():
+	return render_template('registration/2-dob.html',
+												 svg=svg)
+
+
+@app.route('/3')
+def reg3():
+	return render_template('registration/3-division.html',
+												 svg=svg)
+
+
+@app.route('/4')
+def reg4():
+	return render_template('registration/4-name-email.html',
+												 svg=svg)
+
+
+@app.route('/5')
+def reg5():
+	return render_template('registration/5-medical.html',
+												 svg=svg)
+
+
+@app.route('/6')
+def reg6():
+	return render_template('registration/6-id.html',
+												 svg=svg)
+
+
+@app.route('/7')
+def reg7():
+	return render_template('registration/7-parent.html',
+												 svg=svg)
+
+
+@app.route('/8')
+def reg8():
+	return render_template('registration/8-checkout.html',
+												 svg=svg)
+
+
+@app.route('/9')
+def reg9():
+	return render_template('registration/9-confirmation.html',
+												 svg=svg)
 
 ################################################################################
 ############################### INFORMATION PAGES ##############################
@@ -54,7 +94,7 @@ def player_registration2():
 
 @app.route('/')
 def index():
-	return render_template('information-pages/index.html',
+	return render_template('info-pages/index.html',
 												 svg=svg,
 						             session_username=session['username'] if 'username' in session else None)
 
@@ -64,7 +104,7 @@ def index():
 
 @app.route('/divisions-fees')
 def divisions_fees():
-	return render_template('information-pages/divisions-fees.html',
+	return render_template('info-pages/divisions-fees.html',
 												 divisionTableHeaders=divisionTableHeaders,
 												 divisionTable=divisionTable,
 												 challengerDescription=challengerDescription,
@@ -76,7 +116,7 @@ def divisions_fees():
 
 @app.route('/volunteer')
 def volunteer():
-	return render_template('information-pages/volunteer.html',
+	return render_template('info-pages/volunteer.html',
 												 svg=svg)
 
 
@@ -85,7 +125,7 @@ def volunteer():
 
 @app.route('/schedule')
 def schedule():
-	return render_template('information-pages/schedule.html',
+	return render_template('info-pages/schedule.html',
 												 svg=svg)
 
 

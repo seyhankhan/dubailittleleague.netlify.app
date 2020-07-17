@@ -141,10 +141,6 @@ body {
    cursor: pointer;
    border: rgba(35, 31, 32, 0.30) solid 2px;
    border-radius: 4px;
-   -webkit-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
-   user-select: none;
  }
 
  .container:hover {

@@ -1,0 +1,51 @@
+<!-- <html> -->
+{% extends "registration/regTemplate.html" %}
+
+
+{% block extraHead %}
+  <link rel="stylesheet" href="static/css/registration/2-dob.css">
+{% endblock %}
+
+
+{% block form %}
+  <div class="stages">
+    <div class="complete stage-one">
+      1
+    </div>
+    <p>Add player's details</p>
+    <div class="stage-two">
+      2
+    </div>
+    <div class="stage-three">
+      3
+    </div>
+  </div>
+  <div class="progress-bar">
+    <div class="completed-progress-bar"></div>
+  </div>
+
+  <h4>Player's date of birth</h4>
+
+  <div class="question-box">
+
+    <div class="input-group">
+      <input class="day input-area" required />
+      <label>Day</label>
+    </div>
+
+    <div class="input-group">
+      <input class="month input-area" required />
+      <label>Month</label>
+    </div>
+
+    <div class="input-group">
+      <input class="year input-area" required/>
+      <label>Year</label>
+    </div>
+
+  </div>
+
+  <div class="continue-box">
+    <a href="/3" id="continue-button">Continue {{ svg["rightarrow"] }}</a>
+  </div>
+{% endblock %}
