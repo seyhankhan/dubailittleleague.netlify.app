@@ -19,8 +19,6 @@ app = Flask(__name__)
 app.secret_key = "stubblyainslieprocrastination"
 
 
-
-
 ################################################################################
 ############################## REGISTRATION PAGES ##############################
 ################################################################################
@@ -31,34 +29,9 @@ app.secret_key = "stubblyainslieprocrastination"
 ############################## PLAYER REGISTRATION #############################
 
 
-@app.route('/pr1')
-def pr1():
-	return render_template('/pr1.html',
-												 svg=svg)
-
-@app.route('/player-registration2')
-def player_registration2():
-	return render_template('registration/player-registration2.html',
-												 svg=svg)
-
-@app.route('/player-registration3')
-def player_registration3():
-	return render_template('registration/player-registration3.html',
-												 svg=svg)
-
-@app.route('/player-registration4')
-def player_registration4():
-	return render_template('registration/player-registration4.html',
-												 svg=svg)
-
-@app.route('/player-registration5')
-def player_registration5():
-	return render_template('registration/player-registration5.html',
-												 svg=svg)
-
-@app.route('/player-registration6')
-def player_registration6():
-	return render_template('registration/player-registration6.html',
+@app.route('/player-registration1')
+def player_registration1():
+	return render_template('player-reg1.html',
 												 svg=svg)
 
 
