@@ -1,8 +1,7 @@
 @import "reg.css";
 
-
 .completed-progress-bar {
-  width: 12%;
+  width: 40%;
 }
 
 .question-box {
@@ -44,8 +43,6 @@
   font-size: 0.8em;
   color: #727070;
 }
-
-
 
 /* .input-area:valid {
   border: 2px solid #306e49;
