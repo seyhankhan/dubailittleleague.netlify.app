@@ -38,6 +38,15 @@
   color: #727070;
 }
 
+label {
+  color: #7b7979;
+  position: absolute;
+  top: 16px;
+  left: 13px;
+  background-color: white;
+  transition: 0.1s;
+}
+
 /* .input-area:valid {
   border: 2px solid #306e49;
 }
@@ -60,14 +69,7 @@
   color: #ab3428;
 } */
 
-label {
-  color: #7b7979;
-  position: absolute;
-  top: 16px;
-  left: 13px;
-  background-color: white;
-  transition: 0.1s;
-}
+
 
 .day {
   width: 100px;

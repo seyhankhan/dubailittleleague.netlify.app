@@ -220,3 +220,9 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+
+/* seyhan added this */
+/* when mouse hovers over input box label, it shows the cursor as the TEXT one */
+label {
+  cursor: text;
+}

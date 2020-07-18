@@ -4,6 +4,84 @@
 
 {% block extraHead %}
   <link rel="stylesheet" href="static/css/registration/2-dob.css">
+  <script type="text/javascript" src="static/js/jquery/jquery.min.js"></script>
+  <script type="text/javascript">
+    function textInsideBox(inputName) {
+      $(inputName+'Group').css({
+        'position': 'relative',
+        'display': 'flex',
+        'flex-direction': 'column',
+        'margin-top': '10px',
+      });
+
+      $(inputName+'Input').css({
+        'border': '2px solid #BCBBBC',
+        'padding': '14px 13px',
+        'font-size': '1em',
+        'font-family': "Avenir, 'Nunito Sans'",
+        'outline': 'none',
+        'border-radius': '4px',
+        'color': '#231F20',
+        'background-color': 'transparent',
+      });
+
+      $(inputName+'Label').css({
+        'color': '#7b7979',
+        'position': 'absolute',
+        'top': '16px',
+        'font-size': '1em',
+        'left': '13px',
+        'background-color': 'white',
+        'transition': '0.1s',
+      });
+    }
+
+    function textOutsideBox(inputName) {
+      $(inputName+'Label').css({
+        'top': '-8px',
+        'padding': '0 3px',
+        'font-size': '0.8em',
+        'color': '#727070',
+      });
+    }
+
+
+    $(document).ready(() => {
+      day = '#day';
+      $(day + 'Input').focusin(() => {
+        console.log(this.id);
+        textOutsideBox(day);
+      }).focusout(() => {
+        if ($(day+'Input').val()) {
+          textOutsideBox(day);
+        } else {
+          textInsideBox(day);
+        }
+      });
+
+      month = '#month';
+      $(month + 'Input').focusin(() => {
+        textOutsideBox(month);
+      }).focusout(() => {
+        if ($(month + 'Input').val()) {
+          textOutsideBox(month);
+        } else {
+          textInsideBox(month);
+        }
+      });
+
+      year = '#year';
+      $(year + 'Input').focusin(() => {
+        textOutsideBox(year);
+      }).focusout(() => {
+        if ($(year + 'Input').val()) {
+          textOutsideBox(year);
+        } else {
+          textInsideBox(year);
+        }
+      });
+    });
+  </script>
 {% endblock %}
 
 
@@ -28,19 +106,19 @@
 
   <div class="question-box">
 
-    <div class="input-group">
-      <input class="day input-area" required />
-      <label>Day</label>
+    <div class="input-group" id='dayGroup'>
+      <input class="day input-area" id='dayInput' required />
+      <label id='dayLabel' onclick='document.getElementById("dayInput").focus()'>Day</label>
     </div>
 
-    <div class="input-group">
-      <input class="month input-area" required />
-      <label>Month</label>
+    <div class="input-group" id='monthGroup'>
+      <input class="month input-area" id='monthInput' required />
+      <label id='monthLabel' onclick='document.getElementById("monthInput").focus()'>Month</label>
     </div>
 
-    <div class="input-group">
-      <input class="year input-area" required/>
-      <label>Year</label>
+    <div class="input-group" id='yearGroup'>
+      <input class="year input-area" id='yearInput' required/>
+      <label id='yearLabel' onclick='document.getElementById("yearInput").focus()'>Year</label>
     </div>
 
   </div>
