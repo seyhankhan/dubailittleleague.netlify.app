@@ -32,19 +32,19 @@ divisionTableHeaders = [
 ]
 divisionTable = {
   'Baseball':[
-    ['Baseball Tee-ball',   '4-6 years',  'Boys & Girls', '1900 AED', "Jan 1, 2021"],
-    ['Baseball Pee Wee',    '7-8 years',  'Boys & Girls', '2200 AED', "May 1, 2021"],
-    ['Baseball Minors',     '9-10 years', 'Boys & Girls', '2200 AED', "May 1, 2021"],
-    ['Baseball Majors',     '11-12 years','Boys & Girls', '2200 AED', "May 1, 2021"],
-    ['Baseball Juniors',    '12-14 years','Boys & Girls', '2200 AED', "May 1, 2021"],
-    ['Baseball Seniors',    '15-18 years','Boys & Girls', '2200 AED', "May 1, 2021"],
+    ['Baseball Tee-ball',   '4-6 years',  'Boys & Girls', '1800 AED', "Jan 1, 2021"],
+    ['Baseball Pee Wee',    '7-8 years',  'Boys & Girls', '2300 AED', "May 1, 2021"],
+    ['Baseball Minors',     '9-10 years', 'Boys & Girls', '2500 AED', "May 1, 2021"],
+    ['Baseball Majors',     '11-12 years','Boys & Girls', '2500 AED', "May 1, 2021"],
+    ['Baseball Juniors',    '12-14 years','Boys & Girls', '2500 AED', "May 1, 2021"],
+    ['Baseball Seniors',    '15-18 years','Boys & Girls', '2500 AED', "May 1, 2021"],
   ],
 'Softball': [
-    ['Softball Juniors',    '9-13 years', 'Girls',        '2200 AED', "Jan 1, 2021"],
-    ['Softball Seniors',    '14-18 years','Girls',        '2200 AED', "Jan 1, 2021"],
+    ['Softball Juniors',    '9-13 years', 'Girls',        '2300 AED', "Jan 1, 2021"],
+    ['Softball Seniors',    '14-18 years','Girls',        '2500 AED', "Jan 1, 2021"],
   ],
 'Challengers': [
-    ['Baseball Challengers','5+ years',   'Boys & Girls', '2200 AED', "May 1, 2021"],
+    ['Baseball Challengers','5+ years',   'Boys & Girls', '2500 AED', "May 1, 2021"],
   ]
 }
 challengerDescription = "The Challenger division is our adaptive baseball program for individuals with physical and intellectual challenges."
