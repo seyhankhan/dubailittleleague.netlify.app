@@ -1,6 +1,4 @@
-# Dubai Little League
-
-See the progress so far: [dubailittleleague.herokuapp.com](http://dubailittleleague.herokuapp.com/)
+# [Dubai Little League](http://dubailittleleague.com)
 
 ## Authors
 
