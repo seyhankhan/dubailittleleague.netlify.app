@@ -1,4 +1,4 @@
-# [Dubai Little League](http://dubailittleleague.com)
+# [Dubai Little League](http://dubailittleleague.netlify.app)
 
 ## Authors
 
