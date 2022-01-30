@@ -4,5 +4,5 @@ Dubai Little League is a youth league with over 450 players ages 4-18 playing Ba
 
 ## Authors
 
-* [Seyhan Van Khan](https://github.com/seyhanvankhan)
+* [Seyhan Van Khan](https://github.com/seyhankhan)
 * [Alizeh Khan](https://github.com/alizehkhan)
